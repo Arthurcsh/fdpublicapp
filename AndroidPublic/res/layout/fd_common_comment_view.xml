@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- 提交评论   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="2dp" >
+
+        <LinearLayout
+            android:id="@+id/fd_common_comment_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/fd_main_function_comment_bg"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/fd_common_comment_textveiw"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="输入点评内容.."
+                    android:maxLines="6"
+                    android:textSize="16sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/fd_common_comment_desc_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="4dp"
+                        android:text="还可以输入100字"
+                        android:textColor="@color/text_unselect"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        
+        <com.wondersgroup.fdpublicapp.common.custom.FDTakePhotoView
+            android:id="@+id/fd_common_comment_take_photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

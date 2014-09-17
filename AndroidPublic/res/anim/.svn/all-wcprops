@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim
+END
+slide_right_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_right_out.xml
+END
+fd_common_top_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_common_top_down.xml
+END
+popshow_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/popshow_anim.xml
+END
+slide_left_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_left_out.xml
+END
+translucent_zoom_exit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/translucent_zoom_exit.xml
+END
+fd_shrink_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_shrink_from_bottomright_to_topleft.xml
+END
+slide_in_up.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_in_up.xml
+END
+translucent_zoom_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/translucent_zoom_in.xml
+END
+fd_grow_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_grow_from_top.xml
+END
+fade_ins.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fade_ins.xml
+END
+slide_out_to_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_out_to_top.xml
+END
+slide_out_to_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_out_to_bottom.xml
+END
+fd_grow_from_bottomright_to_topleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_grow_from_bottomright_to_topleft.xml
+END
+fd_shrink_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_shrink_from_topleft_to_bottomright.xml
+END
+fd_shrink_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_shrink_from_top.xml
+END
+slide_right_in.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_right_in.xml
+END
+slide_position_invariant.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_position_invariant.xml
+END
+fd_grow_from_topleft_to_bottomright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_grow_from_topleft_to_bottomright.xml
+END
+fd_common_bottom_up.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_common_bottom_up.xml
+END
+progress_round.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/progress_round.xml
+END
+fd_shrink_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_shrink_from_bottomleft_to_topright.xml
+END
+fd_shrink_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_shrink_from_topright_to_bottomleft.xml
+END
+slide_out_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_out_down.xml
+END
+push_bottom_in_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/push_bottom_in_2.xml
+END
+translucent_zoom_out.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/translucent_zoom_out.xml
+END
+fd_grow_from_bottomleft_to_topright.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_grow_from_bottomleft_to_topright.xml
+END
+fd_grow_from_topright_to_bottomleft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_grow_from_topright_to_bottomleft.xml
+END
+pull_update_loading_progressbar_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/pull_update_loading_progressbar_anim.xml
+END
+fd_shrink_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_shrink_from_bottom.xml
+END
+pull_arrow_up.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/pull_arrow_up.xml
+END
+slide_in_from_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_in_from_top.xml
+END
+pull_arrow_down.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/pull_arrow_down.xml
+END
+slide_in_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/slide_in_from_bottom.xml
+END
+pophidden_anim.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/pophidden_anim.xml
+END
+fd_grow_from_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/anim/fd_grow_from_bottom.xml
+END

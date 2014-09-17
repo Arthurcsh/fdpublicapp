@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/traffic_head_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/traffic_img_ll"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/traffic_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/menu_photo_list_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="交通线路"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+     <com.amap.api.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fd_traffic_router_map_view"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" />
+     
+    <RadioGroup
+        android:id="@+id/fd_traffic_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/trafic_bus"
+            style="@style/main_footbar_radio"
+            android:background="@drawable/fd_trafic_bus_bg"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/trafic_taxi"
+            style="@style/main_footbar_radio"
+            android:background="@drawable/fd_traffic_taix_bg" />
+        <RadioButton
+            android:id="@+id/trafic_walk"
+            style="@style/main_footbar_radio"
+            android:background="@drawable/fd_traffic_walk_bg" />
+    </RadioGroup>
+    <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+        android:id="@+id/search_traffic_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    
+</LinearLayout>

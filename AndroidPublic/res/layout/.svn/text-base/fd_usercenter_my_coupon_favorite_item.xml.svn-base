@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/fd_rest_details_background_two"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/fd_user_coupon_favorite_photo_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fd_gv_pic_show_failed_default" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/fd_user_coupon_favorite_name_tv"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="龙谷料理"
+                    android:textColor="@color/green"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/fd_user_coupon_favorite_favorable_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/fd_user_coupon_favorite_name_tv"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/fd_restaurant_details_favorable_img" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/fd_user_coupon_favorite_detail_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 8折优惠"
+                    android:textColor="@color/dark_red"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/fd_user_coupon_favorite_count_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:maxWidth="60dp"
+                    android:maxLines="1"
+                    android:text="978987"
+                    android:ellipsize="end"
+                    android:textColor="#ADADAD"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/fd_user_coupon_favorite_download_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:maxWidth="120dp"
+                    android:maxLines="1"
+                    android:text="下载"
+                    android:ellipsize="end"
+                    android:layout_toRightOf="@+id/fd_user_coupon_favorite_count_tv"
+                    android:textColor="#ADADAD"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/fd_user_coupon_favorite_region_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ADADAD"
+                    android:text="多商区"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

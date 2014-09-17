@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout
+        android:id="@+id/traffic_route_location_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grays"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/traffic_header_tabbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/fd_rest_details_background_two"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal" >
+                    
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/fd_rest_map_background" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="起点 :"
+                        android:textColor="#8B4726"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/traffic_origin_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="我的位置"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:src="@drawable/fd_common_arrow_down_bg" />
+                    <TextView
+                        android:id="@+id/traffic_origin_location_success"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#8B4726"
+                        android:ellipsize="end"
+                        android:text="定位中..."
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="42dp"
+                        android:text="终点 :"
+                        android:textColor="#8B4726"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/traffic_end_point_name_tv"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/traffic_header_exchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/fd_rest_traffic_direction" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/traffic_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:divider="@drawable/fd_business_listitem_drivder"
+            android:dividerHeight="1dp"
+            android:listSelector="#fff"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+    <include android:id="@+id/traffic_setting_location_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        layout="@layout/fd_traffic_setting_keywords_view"
+        android:visibility="gone"/>
+</FrameLayout>
+

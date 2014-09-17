@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+        android:id="@+id/student_meal_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="@color/white"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+   <!--  <RadioGroup
+        android:id="@+id/fd_student_meal_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:checkedButton="@+id/student_meal_collect_school"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/student_meal_collect_school"
+            style="@style/main_mutiple_radio"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="收藏的学校"
+            android:drawableLeft="@drawable/fd_student_meal_school_select_bg" />
+
+        <RadioButton
+            android:id="@+id/student_meal_nutrition_calculator"
+            style="@style/main_mutiple_radio"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="营养计算器"
+            android:drawableLeft="@drawable/fd_student_meal_calculator_select_bg" />
+    </RadioGroup> -->
+
+    <LinearLayout
+        android:id="@+id/fd_student_meal_school_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/student_meal_collect_school"
+            style="@style/main_button_condition_radio"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="收藏的学校"
+            android:drawableLeft="@drawable/fd_student_meal_school_select_bg" />
+        <Button
+            android:id="@+id/student_meal_nutrition_calculator"
+            style="@style/main_button_condition_radio"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="营养计算器"
+            android:drawableLeft="@drawable/fd_student_meal_calculator_select_bg" />
+    </LinearLayout>
+</LinearLayout>

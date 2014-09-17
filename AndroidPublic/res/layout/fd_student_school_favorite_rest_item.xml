@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cell_height"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/fd_rest_details_background_two"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="@dimen/cell_image_width"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+            <ImageView
+                android:id="@+id/school_favorite_rest_photo_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fd_gv_pic_show_failed_default" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/school_favorite_rest_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:ellipsize="end"
+                    android:maxEms="9"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/school_favorite_rest_favorable_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/fd_restaurant_details_favorable_img" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/school_favorite_rest_credit_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/school_favorite_rest_credit_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#ADADAD"
+                    android:textSize="14sp" />
+                <TextView
+                    android:id="@+id/school_favorite_rest_supervision_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:ellipsize="end"
+                    android:maxEms="5"
+                    android:singleLine="true"
+                    android:textColor="#8B4726"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/school_favorite_rest_supervision_date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:textColor="#8B4726"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="人均：￥"
+                    android:textColor="#8B4726"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/school_favorite_rest_expense_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 80"
+                    android:textColor="#8B4726"
+                    android:textSize="12sp" />
+                <RatingBar
+                    android:id="@+id/school_favorite_rest_safetyRatingbar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:isIndicator="false"
+                    android:numStars="5"
+                    android:rating="3.5" >
+                </RatingBar>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/school_favorite_rest_address_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:maxWidth="60dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textColor="#ADADAD"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/school_favorite_rest_cuisine_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:maxWidth="120dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:layout_toRightOf="@+id/school_favorite_rest_address_tv"
+                    android:textColor="#ADADAD"
+                    android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/school_favorite_rest_distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="#ADADAD"
+                    android:text="300m"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/fd_business_listitem_drivder" />
+
+</LinearLayout>

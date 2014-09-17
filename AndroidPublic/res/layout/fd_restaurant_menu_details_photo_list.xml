@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/menu_photo_list_head_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/menu_photo_list_img_ll"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/menu_photo_list_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/menu_photo_list_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="食材追溯"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+        
+        <!-- 推荐 -->
+        <RelativeLayout
+            android:id="@+id/fd_menu_photo_recommend_layout"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/fd_menu_photo_favorite_layout"
+            android:gravity="center"
+            android:visibility="gone" >
+            <ImageView
+                android:id="@+id/fd_menu_photo_support_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/fd_restaurant_details_support_enable" />
+        </RelativeLayout>
+
+        <!-- 收藏 -->
+        <RelativeLayout
+            android:id="@+id/fd_menu_photo_favorite_layout"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:visibility="gone" >
+            <ImageView
+                android:id="@+id/fd_menu_photo_favorite_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/fd_restaurant_details_star_level" />
+        </RelativeLayout>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/fd_trace_viewpage_layout"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:background="@drawable/photo_details_background"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/fd_trace_viewpage_dish_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fd_gv_pic_show_failed_default" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/menu_photo_list_details_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:divider="@drawable/fd_business_listitem_drivder"
+        android:dividerHeight="10dp" />
+
+</LinearLayout>

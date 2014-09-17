@@ -1,0 +1,272 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <style name="FDActivityTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+    <style name="activityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_position_invariant</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+        
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="Theme.NoTitleBar" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:launchMode">singleTask</item>
+        <item name="android:configChanges">keyboardHidden|orientation</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateHidden</item>
+        <!-- 设置activity切换动画 --> 
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    
+    <style name="Theme.HalfTranslucent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/half_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+    </style>
+    <style name="Theme.FullTranslucent" parent="@android:style/Theme.Translucent">
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+    </style>
+    
+    <style name="Animation" />
+    <style name="Animation.Translucent" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/translucent_zoom_out</item>
+        <item name="android:windowExitAnimation">@anim/translucent_zoom_exit</item>
+    </style>
+    <style name="Animation.SlideTop" parent="@style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_up</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_down</item>
+    </style>
+    <style name="Animation.ZoomLight" parent="@style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/translucent_zoom_in</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@anim/translucent_zoom_exit</item>
+    </style>
+    
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:background">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="footbar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>  
+        <item name="android:button">@null</item>  
+        <item name="android:paddingTop">@dimen/space_1</item>
+        <item name="android:paddingBottom">@dimen/space_3</item>
+    </style>
+    <style name="main_footbar_cutline">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="main_footbar_radio" parent="footbar">
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dip</item>
+    </style>
+    
+    <!-- Fragment切换按钮  RadioButton-->
+    <style name="main_mutiple_radio" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:paddingLeft">42dp</item>
+        <item name="android:paddingRight">42dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item> 
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:background">@drawable/fd_widget_table_select_bg</item>
+        <item name="android:textColor">@color/fd_select_table_bar_color</item>
+    </style>
+    
+    <!-- Button切换按钮样式 -->
+    <style name="main_button_condition_radio" parent="main_mutiple_radio">
+        <item name="android:background">@drawable/fd_widget_fragment_select_bg</item>
+    </style>
+    
+    <!-- 排行榜条件按钮样式 -->
+    <style name="main_ranking_condition_radio" parent="footbar">
+        <item name="android:background">@drawable/fd_ranking_condition_bg</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+    
+    <!-- 餐厅查询条件按钮样式 -->
+    <style name="main_query_condition_radio" parent="footbar">
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+    
+    <!-- 首页按钮样式 -->
+    <style name="main_index_function" >
+        <item name="android:minHeight">60dip</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:drawablePadding">0dip</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:gravity">center</item> 
+        <item name="android:background">@drawable/fd_main_function_bg</item>
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    
+    <style name="main_index_button" >
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dip</item>
+    </style>
+    <style name="heartrate_tab_bottom">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <!-- 自定义加载样式 -->
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">  
+    <item name="android:windowFrame">@null</item>  
+        <item name="android:windowIsFloating">true</item>  
+        <item name="android:windowContentOverlay">@null</item>  
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>  
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>  
+    </style>  
+      
+    <style name="FDCustomProgressDialog" parent="@style/CustomDialog">  
+        <item name="android:windowBackground">@android:color/transparent</item>  
+        <item name="android:windowNoTitle">true</item>  
+    </style> 
+    
+    <style name="QueryRestaurant" />
+    
+    	<!-- QueryRestaurant PopDownMenu -->
+	<style name="QueryRestaurant.Animation" />
+	<style name="QueryRestaurant.Animation.PopDown" />
+	<style name="QueryRestaurant.Animation.PopDown.Left">
+		<item name="@android:windowEnterAnimation">@anim/fd_grow_from_topleft_to_bottomright</item>
+		<item name="@android:windowExitAnimation">@anim/fd_shrink_from_bottomright_to_topleft</item>
+	</style>
+	<style name="QueryRestaurant.Animation.PopDown.Right">
+		<item name="@android:windowEnterAnimation">@anim/fd_grow_from_topright_to_bottomleft</item>
+		<item name="@android:windowExitAnimation">@anim/fd_shrink_from_bottomleft_to_topright</item>
+	</style>
+	<style name="QueryRestaurant.Animation.PopDown.Center">
+		<item name="@android:windowEnterAnimation">@anim/fd_grow_from_top</item>
+		<item name="@android:windowExitAnimation">@anim/fd_shrink_from_bottom</item>
+	</style>
+	
+	<style name="QueryRestaurant.Animation.PopUp" />
+	<style name="QueryRestaurant.Animation.PopUp.Left">
+		<item name="@android:windowEnterAnimation">@anim/fd_grow_from_bottomleft_to_topright</item>
+		<item name="@android:windowExitAnimation">@anim/fd_shrink_from_topright_to_bottomleft</item>
+	</style>
+	<style name="QueryRestaurant.Animation.PopUp.Right">
+		<item name="@android:windowEnterAnimation">@anim/fd_grow_from_bottomright_to_topleft</item>
+		<item name="@android:windowExitAnimation">@anim/fd_shrink_from_topleft_to_bottomright</item>
+	</style>
+	<style name="QueryRestaurant.Animation.PopUp.Center">
+		<item name="@android:windowEnterAnimation">@anim/fd_grow_from_bottom</item>
+		<item name="@android:windowExitAnimation">@anim/fd_shrink_from_top</item>
+	</style>
+	
+	<!-- IOS对话框 -->
+	<style name="myDialogstyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/fd_custom_dialog_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+	<!-- PopupWindow -->
+	<style name="PopupWindowAnimation">  
+        <item name="android:windowEnterAnimation">@anim/popshow_anim</item>  
+        <item name="android:windowExitAnimation">@anim/pophidden_anim</item>  
+    </style>
+    
+	<!-- 输入框样式 -->
+	<style name="accountInputBorder">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:background">@drawable/login_border</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="accountEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <!-- 点评星级 -->
+    <style name="safetyCreditRatingBar" parent="@android:style/Widget.RatingBar">
+		<item name="android:progressDrawable">@drawable/fd_credit_rating_bar</item>
+		<item name="android:minHeight">16dip</item>
+		<item name="android:maxHeight">16dip</item>
+	</style>
+	
+    <!-- 我的留言 -->
+    <style name="leaveMessageToggleButton" parent="@android:style/Widget.CompoundButton">  
+       <item name="android:button">@drawable/fd_leave_message_bg</item>  
+    </style> 
+    
+</resources>

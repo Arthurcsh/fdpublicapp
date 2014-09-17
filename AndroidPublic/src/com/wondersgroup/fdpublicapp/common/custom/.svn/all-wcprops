@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/54/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom
+END
+FDViewHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDViewHolder.java
+END
+FDBadgeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDBadgeView.java
+END
+FDGridView.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDGridView.java
+END
+FDNestListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDNestListView.java
+END
+FDCustomDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/fdAndroidPublic/!svn/ver/76/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDCustomDialog.java
+END
+FDUserAvatarView.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/fdAndroidPublic/!svn/ver/46/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDUserAvatarView.java
+END
+FDUpdateManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/fdAndroidPublic/!svn/ver/121/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDUpdateManager.java
+END
+FDCommentView.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDCommentView.java
+END
+FDClearEditText.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDClearEditText.java
+END
+FDHorizontalListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDHorizontalListView.java
+END
+FDViewUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/fdAndroidPublic/!svn/ver/103/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDViewUtil.java
+END
+FDCustomProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/fdAndroidPublic/!svn/ver/76/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDCustomProgressDialog.java
+END
+FDImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/fdAndroidPublic/!svn/ver/6/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDImageView.java
+END
+FDTakePhotoView.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/fdAndroidPublic/!svn/ver/18/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/FDTakePhotoView.java
+END

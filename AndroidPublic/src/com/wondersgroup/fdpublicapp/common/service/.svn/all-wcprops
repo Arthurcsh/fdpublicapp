@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/54/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service
+END
+ConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/ConnectionManager.java
+END
+FDRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/FDRestClient.java
+END
+AbstractManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/AbstractManager.java
+END
+ServiceManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/fdAndroidPublic/!svn/ver/158/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/ServiceManager.java
+END
+FDCallbackListenerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/FDCallbackListenerAdapter.java
+END
+FDClientHttpRequestInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/54/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/FDClientHttpRequestInterceptor.java
+END
+FDConst.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/fdAndroidPublic/!svn/ver/113/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/FDConst.java
+END
+AbstractService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/fdAndroidPublic/!svn/ver/54/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/service/AbstractService.java
+END

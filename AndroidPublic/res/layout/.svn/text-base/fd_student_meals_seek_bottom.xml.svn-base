@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/fd_student_meals_seek_bottom_ll"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"	
+	android:gravity="bottom"
+	android:orientation="horizontal" >
+	
+	<LinearLayout
+		android:id="@+id/fd_student_meals_seek_my_collect_ll"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/widget_bar_bg_p"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+
+		<ImageView
+			android:id="@+id/fd_student_meals_seek_my_collect_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"	
+			android:layout_marginLeft="32dp"            	                             
+			android:src="@drawable/school_my_collect" />
+
+	   <TextView
+		   android:id="@+id/fd_student_meals_seek_my_collect_textview"
+		   android:layout_width="wrap_content"
+		   android:layout_height="wrap_content"                                              
+		   android:layout_gravity="center_vertical"	 
+		   android:layout_marginLeft="10dp"               
+		   android:text="@string/student_meals_my_collect_shool"
+		   android:textSize="12sp" />
+	</LinearLayout>
+	
+	<LinearLayout
+		android:id="@+id/fd_student_meals_seek_nutrition_calculator_ll"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/widget_bar_bg_p"
+		android:layout_weight="1"
+		android:orientation="horizontal" >
+
+		<ImageView
+			android:id="@+id/fd_student_meals_seek_nutrition_calculator_image"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"		
+			android:layout_marginLeft="32dp"                         
+			android:src="@drawable/nutrition_calculator" />
+		<TextView
+			android:id="@+id/fd_student_meals_seek_nutrition_calculator_textview"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"                 
+			android:layout_gravity="center_vertical"
+			android:layout_marginLeft="10dp"  		                     
+			android:text="@string/student_meals_nutrition_calculator"
+			android:textSize="12sp" />
+	</LinearLayout>
+</LinearLayout>

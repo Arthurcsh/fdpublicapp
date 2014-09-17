@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 最上面的 标题 -->
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_my_comments_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 左上角 后退按钮 -->
+        <LinearLayout
+            android:id="@+id/llo_fd_usercenter_my_comments_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_my_comments_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/img_back_button_hint"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+        
+        <!-- 标题文字 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/usercenter_my_comments_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_my_comments_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/rlo_fd_usercenter_my_comments_title"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/rg_fd_usercenter_my_comments"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:checkedButton="@+id/rb_fd_usercenter_my_comments_rest"
+            android:background="@drawable/fd_query_condition_content_bg"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_fd_usercenter_my_comments_rest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/usercenter_my_comments_rest"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+
+            <RadioButton
+                android:id="@+id/rb_fd_usercenter_my_comments_dish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/usercenter_my_comments_dish"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+
+            <RadioButton
+                android:id="@+id/rb_fd_usercenter_my_comments_thread"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/usercenter_my_comments_thread"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+        </RadioGroup>
+
+        <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+            android:id="@+id/vp_fd_usercenter_my_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@color/white"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</RelativeLayout>

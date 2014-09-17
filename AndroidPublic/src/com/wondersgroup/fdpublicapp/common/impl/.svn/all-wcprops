@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl
+END
+FDRestaurantImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDRestaurantImpl.java
+END
+FDDialogListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDDialogListener.java
+END
+FDCallbackListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDCallbackListener.java
+END
+FDOnPathOperateListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDOnPathOperateListener.java
+END
+FDQueryConditionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDQueryConditionListener.java
+END
+FDMultiConditionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDMultiConditionListener.java
+END
+FDCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDCallback.java
+END
+FDPhotoBucketListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDPhotoBucketListener.java
+END
+FDKeyWordQueryListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/impl/FDKeyWordQueryListener.java
+END

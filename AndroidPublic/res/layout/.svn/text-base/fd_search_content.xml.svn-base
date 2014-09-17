@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+        android:id="@+id/search_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="@color/white"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    <RadioGroup
+        android:id="@+id/fd_search_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/search_footbar_area"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/search_footbar_area"
+            style="@style/main_footbar_radio"
+            android:background="@drawable/fd_widget_search_area_bg" />
+
+        <RadioButton
+            android:id="@+id/search_footbar_near"
+            style="@style/main_footbar_radio"
+            android:background="@drawable/fd_widget_search_near_bg" />
+    </RadioGroup>
+
+</LinearLayout>

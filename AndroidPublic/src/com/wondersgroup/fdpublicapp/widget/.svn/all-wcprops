@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/50/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget
+END
+FDQueryKeyNameWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/fdAndroidPublic/!svn/ver/13/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDQueryKeyNameWindow.java
+END
+FDPhotoPopupWindows.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPhotoPopupWindows.java
+END
+FDPickCreditWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPickCreditWindow.java
+END
+FDPhotoPickWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPhotoPickWindow.java
+END
+FDBaseConditionItemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDBaseConditionItemView.java
+END
+FDPathChooseDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPathChooseDialog.java
+END
+FDQueryBaseCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDQueryBaseCondition.java
+END
+FDUIHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/fdAndroidPublic/!svn/ver/68/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDUIHelper.java
+END
+FDPopupWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPopupWindow.java
+END
+FDForwardPopupWindows.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/fdAndroidPublic/!svn/ver/68/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDForwardPopupWindows.java
+END
+FDQueryAreaView.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDQueryAreaView.java
+END
+FDPickAreaWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPickAreaWindow.java
+END
+FDQueryNearView.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDQueryNearView.java
+END
+FDScrollLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDScrollLayout.java
+END
+FDPickCuisineWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPickCuisineWindow.java
+END
+FDPickAtmosphereWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/widget/FDPickAtmosphereWindow.java
+END

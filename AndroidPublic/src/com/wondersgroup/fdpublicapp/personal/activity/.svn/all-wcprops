@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/fdAndroidPublic/!svn/ver/56/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity
+END
+FDUserCenterConfigActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/114/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterConfigActivity.java
+END
+FDUserCenterMyCommentsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyCommentsActivity.java
+END
+FDUserCenterMyMessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyMessageActivity.java
+END
+FDUserCenterLostPwSecQuesFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterLostPwSecQuesFragment.java
+END
+FDUserCenterMyCommentsDishFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyCommentsDishFragment.java
+END
+FDDishCommentDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/29/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDDishCommentDetailActivity.java
+END
+FDUserCenterCompleteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/fdAndroidPublic/!svn/ver/61/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterCompleteActivity.java
+END
+FDUserCenterProtocolActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterProtocolActivity.java
+END
+FDUserCenterMyCommentsRestFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/fdAndroidPublic/!svn/ver/128/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyCommentsRestFragment.java
+END
+FDUserCenterMsgSystemFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/fdAndroidPublic/!svn/ver/61/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMsgSystemFragment.java
+END
+FDUserCenterMyRecommendActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyRecommendActivity.java
+END
+FDUserCenterMyCommentsNoteFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyCommentsNoteFragment.java
+END
+FDUserCenterMyCouponActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyCouponActivity.java
+END
+FDUserCenterMyCouponFavoriteFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyCouponFavoriteFragment.java
+END
+FDUserCenterMyRecommendDishFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/fdAndroidPublic/!svn/ver/8/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyRecommendDishFragment.java
+END
+FDUserCenterLoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/fdAndroidPublic/!svn/ver/123/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterLoginActivity.java
+END
+FDUserCenterMsgManagerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMsgManagerActivity.java
+END
+FDUserCenterRegisterNewUserActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/fdAndroidPublic/!svn/ver/101/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterRegisterNewUserActivity.java
+END
+FDUserCenterLostPwActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterLostPwActivity.java
+END
+FDDishDetailActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/fdAndroidPublic/!svn/ver/138/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDDishDetailActivity.java
+END
+FDUserCenterMsgReplyFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMsgReplyFragment.java
+END
+FDUserCenterMyRecommendRestFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMyRecommendRestFragment.java
+END
+FDUserCenterLostPwPhoneFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterLostPwPhoneFragment.java
+END
+FDUserCenterLostPwSecAccountFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterLostPwSecAccountFragment.java
+END
+FDUserCenterMsgMessageFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/activity/FDUserCenterMsgMessageFragment.java
+END

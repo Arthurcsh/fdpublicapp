@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fd_ranking_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/fd_ranking_header_back_label"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:id="@+id/fd_ranking_header_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ranking_header_name"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/fd_ranking_condition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/fd_ranking_header_layout"
+        android:background="@drawable/fd_query_condition_content_bg"
+        android:orientation="horizontal" >
+        <RadioGroup
+            android:id="@+id/fd_ranking_condition_tabbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@+id/fd_ranking_condition_topic"
+            android:paddingBottom="2dp"
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/fd_ranking_condition_topic"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/ranking_major_topic"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_query_condition_credit"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/ranking_credit_rating"
+                android:textColor="@color/fd_select_condition_color"
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_query_condition_favorites"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/ranking_favorites"
+                android:textColor="@color/fd_select_condition_color"
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_query_condition_recommend"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/ranking_recommend"
+                android:textColor="@color/fd_select_condition_color"
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_query_condition_others"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/ranking_others"
+                android:textColor="@color/fd_select_condition_color"
+                android:background="@drawable/fd_ranking_condition_bg" />
+        </RadioGroup>
+    </LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/fd_sellers_ranking_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_ranking_condition_layout"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <!-- <ImageView
+        android:id="@+id/fd_search_table_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/fd_rest_seek_bottom" /> -->
+
+</RelativeLayout>

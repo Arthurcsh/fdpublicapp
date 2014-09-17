@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/fd_favorite_note_detail_header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_favorite_note_detail_header_back_label"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/fd_favorite_note_detail_header_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fd_favorite_note_detail_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="帖子详情"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/fd_favorite_note_detail_collect_layout"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/fd_favorite_note_detail_level_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/fd_restaurant_details_star_level" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/fd_favorite_note_detail_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_favorite_note_detail_header_layout"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/fd_query_condition_content_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/fd_favorite_note_detail_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/green"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_favorite_note_detail_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_favorite_note_detail_title_layout"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/fd_favorite_note_detail_content_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="8"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <com.wondersgroup.fdpublicapp.common.custom.FDHorizontalListView
+            android:id="@+id/fd_school_favorite_note_detail_listView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:cacheColorHint="#00000000" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp" >
+
+                <TextView
+                    android:id="@+id/fd_favorite_note_supervision_detail_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="发帖者"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/fd_favorite_note_supervision_detail_date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:text="2013-12-1"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" >
+
+                <TextView
+                    android:id="@+id/fd_favorite_note_detail_forward_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="转发(0)"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/fd_favorite_note_detail_favorites_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:text="收藏(0)"
+                    android:textColor="@color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/fd_favorite_note_detail_drivder_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_favorite_note_detail_layout"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/fd_business_listitem_drivder" />
+
+    <LinearLayout
+        android:id="@+id/fd_favorite_note_detail_comment_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_favorite_note_detail_drivder_layout"
+        android:layout_marginTop="2dp" >
+
+        <TextView
+            android:id="@+id/fd_favorite_note_detail_comment_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="点评"
+            android:textColor="#FF6600" />
+
+        <TextView
+            android:id="@+id/fd_favorite_note_detail_comment_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="(共0条)"
+            android:textColor="#FF6600" />
+    </LinearLayout>
+
+    <com.wondersgroup.fdpublicapp.common.custom.xListView.LJListView
+        android:id="@+id/student_favorite_note_detail_comment_xml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fd_favorite_note_detail_comment_layout"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/fd_student_meal_school_favorite_note_layout"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/student_meal_favorite_note_forward"
+            style="@style/main_button_condition_radio"
+            android:drawableLeft="@drawable/fd_main_add_image_bg"
+            android:paddingLeft="46dp"
+            android:paddingRight="46dp"
+            android:text="转发" />
+
+        <Button
+            android:id="@+id/student_meal_favorite_note_comment"
+            style="@style/main_button_condition_radio"
+            android:drawableLeft="@drawable/fd_meal_note_comment_bg"
+            android:paddingLeft="46dp"
+            android:paddingRight="46dp"
+            android:text="评论" />
+    </LinearLayout>
+    
+</RelativeLayout>

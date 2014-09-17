@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/student_school_meal_comment_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/student_school_meal_comment_back_img_layout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <!-- 返回按钮 -->
+            <ImageView
+                android:id="@+id/student_school_meal_comment_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/student_school_meal_comment_name_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="点评菜肴"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_school_meal_comment_head_layout"
+        android:scrollbars="none"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:orientation="vertical"
+            android:background="@color/white" >
+            <TextView
+                android:id="@+id/student_school_meal_comment_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="营养餐"
+                android:textColor="@color/dark_green"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/student_school_meal_comment_company_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="供应餐厅"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/student_school_meal_comment_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="2dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/fd_main_function_comment_bg"
+                android:orientation="vertical" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+                    <EditText 
+                        android:id="@+id/student_school_meal_comment_textveiw"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@null"
+                        android:gravity="left|top"
+                        android:hint="输入营养餐点评.."
+                        android:maxLines="6"
+                        android:textSize="16sp" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+                        <TextView
+                            android:id="@+id/student_school_meal_comment_desc_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="4dp"
+                            android:text="还可以输入100字"
+                            android:textColor="@color/text_unselect"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/student_school_meal_comment_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/fd_rest_details_background_two"
+                android:orientation="horizontal" >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:padding="4dp" >
+
+                    <LinearLayout
+                        android:id="@+id/student_school_meal_comment_add_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="#dcdddd"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp" >
+
+                        <ImageView
+                            android:id="@+id/student_school_meal_comment_add_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/fd_main_add_image_bg" />
+
+                        <TextView
+                            android:id="@+id/tv_add_output"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="上传图片"
+                            android:textColor="@color/fd_select_item_layout_color"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+
+                    <com.wondersgroup.fdpublicapp.common.custom.FDHorizontalListView
+                        android:id="@+id/student_school_meal_comment_imagelistView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:cacheColorHint="#00000000" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/student_school_meal_comment_submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/fd_widget_confirm_bottom_bg"
+                android:gravity="center"
+                android:text="提交"
+                android:textColor="#8B4726"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 安全问题 -->
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_lost_pw_sec_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <!-- 安全问题一 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_lost_pw_sec_ques1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques1_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_lost_pw_sec_ques1"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_lost_pw_sec_ques1_label"
+                android:hint="我第一位老师的姓氏"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <!-- 安全答案一 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_lost_pw_sec_ques1_ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques1_ans_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_lost_pw_sec_ques1_ans"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques1_ans"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_lost_pw_sec_ques1_ans_label"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="我第一位老师的姓氏"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <!-- 安全问题二 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_lost_pw_sec_ques2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_lost_pw_sec_ques2"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_lost_pw_sec_ques2_label"
+                android:hint="我最喜欢的颜色"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <!-- 安全答案二 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_lost_pw_sec_ques2_ans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_last"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques2_ans_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_lost_pw_sec_ques2_ans"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/textv_fd_usercenter_lost_pw_sec_ques2_ans"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_lost_pw_sec_ques2_ans_label"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="我最喜欢的颜色"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 提交按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_lost_pw_sec_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_lost_pw_sec_list"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textv_fd_usercenter_lost_pw_sec_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fd_usercenter_login_login_btn"
+            android:gravity="center"
+            android:text="@string/usercenter_lost_pw_sec_submit"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

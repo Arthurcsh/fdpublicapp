@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fd_restaurant_comment_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/fd_restaurant_comment_back_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fd_restaurant_comment_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="评价餐厅"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <TextView 
+            android:id="@+id/fd_restaurant_comment_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="餐厅名称"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="食材新鲜度"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+            <RatingBar
+                android:id="@+id/fd_rest_comments_fresh_rating"
+                style="@style/safetyCreditRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:isIndicator="false"
+                android:numStars="5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="信息透明度"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+            <RatingBar
+                android:id="@+id/fd_rest_comments_transparency_rating"
+                style="@style/safetyCreditRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:isIndicator="false"
+                android:numStars="5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="口味"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+            <RatingBar
+                android:id="@+id/fd_rest_comments_flavor_rating"
+                style="@style/safetyCreditRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:isIndicator="false"
+                android:numStars="5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="服务"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+            <RatingBar
+                android:id="@+id/fd_rest_comments_server_rating"
+                style="@style/safetyCreditRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:isIndicator="false"
+                android:numStars="5" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="价格"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp" />
+            <RatingBar
+                android:id="@+id/fd_rest_comments_price_rating"
+                style="@style/safetyCreditRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:isIndicator="false"
+                android:numStars="5" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- 餐厅评论   -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/fd_restaurant_comment_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/fd_main_function_comment_bg"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/fd_restaurant_comment_textveiw"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@null"
+                    android:gravity="left|top"
+                    android:hint="输入餐厅点评.."
+                    android:maxLines="6"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/fd_restaurant_comment_leave_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="4dp"
+                        android:text="还可以输入100字"
+                        android:textColor="@color/text_unselect"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/fd_restaurant_comment_add_photo_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="上传图片"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:background="@drawable/fd_common_green_bg" />
+        </LinearLayout>
+        
+        <TextView
+            android:id="@+id/fd_restaurant_comment_dish_select_textview"
+            android:layout_width="90dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="选择推荐菜"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/fd_common_green_bg" />
+        <TextView
+            android:id="@+id/fd_restaurant_comment_average_textview"
+            android:layout_width="90dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="人均消费"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@drawable/fd_common_green_bg" />
+    </LinearLayout>
+    
+    <com.wondersgroup.fdpublicapp.common.custom.FDTakePhotoView
+        android:id="@+id/fd_restaurant_comment_takePhoto_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

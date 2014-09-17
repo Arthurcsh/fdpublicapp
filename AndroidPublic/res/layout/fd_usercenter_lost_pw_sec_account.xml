@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 请输入您的账号 -->
+
+    <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+        android:id="@+id/editt_fd_usercenter_login_pw"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fd_widget_edit_bg"
+        android:hint="@string/usercenter_lost_pw_sec_account"
+        android:imeActionLabel="确定"
+        android:imeOptions="actionDone"
+        android:maxLength="30"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_lost_pw_sec_account_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editt_fd_usercenter_login_pw"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 下一步按钮 -->
+
+        <TextView
+            android:id="@+id/textv_fd_usercenter_lost_pw_sec_account_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fd_usercenter_login_login_btn"
+            android:gravity="center"
+            android:text="@string/usercenter_lost_pw_sec_account_next"
+            android:textColor="@color/rust"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/fd_search_header_view"
+        android:id="@+id/fd_query_header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" />
+    <LinearLayout
+        android:id="@+id/fd_query_condition_layout"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_below="@+id/fd_query_header_view"
+        android:background="@drawable/fd_query_condition_content_bg"
+        android:orientation="horizontal" >
+        <RadioGroup
+            android:id="@+id/fd_query_condition_tabbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checkedButton="@+id/fd_query_condition_area"
+            android:orientation="horizontal" >
+            <CheckedTextView
+                android:id="@+id/fd_query_condition_area"
+                style="@style/main_query_condition_radio"
+                android:text="@string/search_condition_area_bar"
+                android:textColor="@color/fd_select_condition_color"
+                android:drawablePadding="2dp"
+                android:paddingRight="2dp"
+                android:drawableRight="@drawable/fd_business_area_district_jiantou" 
+                android:background="@drawable/fd_query_button_bg"/>
+            <ImageView
+                android:id="@+id/fd_query_condition_area_devide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/fd_business_area_district_driver" />
+            <CheckedTextView
+                android:id="@+id/fd_query_condition_cuisine"
+                style="@style/main_query_condition_radio"
+                android:text="@string/search_condition_cuisine_bar"
+                android:textColor="@color/fd_select_condition_color"
+                android:drawableRight="@drawable/fd_business_area_district_jiantou" 
+                android:background="@drawable/fd_query_button_bg"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/fd_business_area_district_driver" />
+            <CheckedTextView
+                android:id="@+id/fd_query_condition_credit"
+                style="@style/main_query_condition_radio"
+                android:text="@string/search_condition_credit_bar"
+                android:textColor="@color/fd_select_condition_color"
+                android:drawableRight="@drawable/fd_business_area_district_jiantou"
+                android:background="@drawable/fd_query_button_bg" />
+            <ImageView
+                android:id="@+id/fd_query_condition_distance_devide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/fd_business_area_district_driver" />
+            <CheckedTextView
+                android:id="@+id/fd_query_condition_distance"
+                style="@style/main_query_condition_radio"
+                android:text="@string/search_condition_distance_bar"
+                android:textColor="@color/fd_select_condition_color"
+                android:drawablePadding="2dp"
+                android:paddingRight="2dp"
+                android:drawableRight="@drawable/fd_business_area_district_jiantou" 
+                android:background="@drawable/fd_query_button_bg" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/fd_business_area_district_driver" />
+            <CheckedTextView
+                android:id="@+id/fd_query_condition_others"
+                style="@style/main_query_condition_radio"
+                android:text="@string/search_condition_others_bar"
+                android:textColor="@color/fd_select_condition_color"
+                android:drawableRight="@drawable/fd_business_area_district_jiantou"
+                android:background="@drawable/fd_query_button_bg" />
+        </RadioGroup>
+    </LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/fd_business_trends_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_query_condition_layout"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <!-- <ImageView
+        android:id="@+id/fd_search_table_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/fd_rest_seek_bottom" /> -->
+
+</RelativeLayout>

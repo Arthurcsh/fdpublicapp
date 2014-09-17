@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays"
+    android:orientation="vertical" >
+
+    <!-- 标题部分 -->
+
+    <RelativeLayout
+        android:id="@+id/fd_student_meals_search_school_favorite_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_student_meals_search_school_favorite_back_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/student_meals_nutrition_school_favorite_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!-- 学校收藏列表 -->
+    <LinearLayout
+        android:id="@+id/fd_student_school_favorite_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/fd_student_school_favorite_group"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:checkedButton="@+id/fd_student_school_favorite_rest"
+            android:background="@drawable/fd_query_condition_content_bg"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/fd_student_school_favorite_rest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/student_meals_nutrition_school_favorite_restaurant"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_student_school_favorite_dish"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/student_meals_nutrition_school_favorite_cuisine"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_student_school_favorite_note"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/student_meals_nutrition_school_favorite_note"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+            <RadioButton
+                android:id="@+id/fd_student_school_favorite_school"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/main_ranking_condition_radio"
+                android:text="@string/student_meals_nutrition_school_favorite_school"
+                android:textColor="@color/fd_select_condition_color" 
+                android:background="@drawable/fd_ranking_condition_bg" />
+        </RadioGroup>
+
+        <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+            android:id="@+id/fd_student_school_favorite_pageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:background="@color/dark_gray"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+    </LinearLayout>
+
+</LinearLayout>

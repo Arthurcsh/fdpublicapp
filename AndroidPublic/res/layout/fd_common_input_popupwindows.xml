@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:background="@color/white" >
+
+    <RelativeLayout
+        android:id="@+id/layout_input_popup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:orientation="vertical"
+        android:background="@drawable/fd_rest_comment_average_bg" >
+        <EditText
+            android:id="@+id/item_popupwindows_input_editview"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:hint="输入平均消费.."
+            android:maxLines="1"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/item_popupwindows_input_confirm"
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:gravity="center_vertical|right"
+            android:background="@drawable/fd_main_button_bg"
+            android:layout_alignParentRight="true" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/fd_common_ok" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

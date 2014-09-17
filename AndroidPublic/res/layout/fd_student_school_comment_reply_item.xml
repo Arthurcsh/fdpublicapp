@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/fd_usercenter_my_comments_reply_item_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/fd_query_condition_content_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textv_fd_usercenter_comments_reply_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="棒约翰(徐家汇)"
+            android:textColor="@color/green"
+            android:textSize="14sp" />
+    </RelativeLayout>
+        
+    <!-- 回复详情 -->
+    <LinearLayout
+        android:id="@+id/fd_comments_reply_item_layout"
+        android:layout_below="@+id/fd_usercenter_my_comments_reply_item_name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/fd_comments_reply_content_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:background="@color/white"
+            android:orientation="vertical" >
+            <!--  -->
+            <TextView 
+                android:id="@+id/fd_comments_reply_content_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="9"
+                android:text="团购的披萨，虽然可选种类少但是也足够了，我对披萨的口味并不挑剔，经常去披萨店打牙祭，喜欢棒约翰胜过必胜客。这家的披萨和鸡翅蛮好吃，地方较大，也很干净。"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fd_usercenter_my_comments_reply_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="right|center_vertical"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+            <TextView 
+                android:id="@+id/fd_usercenter_my_comments_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:maxLines="9"
+                android:text="2013-12-22 19:00"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+            <LinearLayout
+                android:id="@+id/fd_comments_reply_imageview_layout"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_main_button_bg"
+                android:gravity="center" >
+                <ImageView
+                    android:id="@+id/fd_usercenter_comments_reply_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/fd_comment_reply" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

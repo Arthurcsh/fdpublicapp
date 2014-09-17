@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/fdAndroidPublic/!svn/ver/43/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity
+END
+FDSearchMenuDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/fdAndroidPublic/!svn/ver/150/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchMenuDetailsActivity.java
+END
+FDSearchDetailsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/fdAndroidPublic/!svn/ver/144/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchDetailsFragment.java
+END
+FDSearchDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/fdAndroidPublic/!svn/ver/117/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchDetailsActivity.java
+END
+FDSearchCommentFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/fdAndroidPublic/!svn/ver/43/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchCommentFragment.java
+END
+FDSearchPhotoDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/fdAndroidPublic/!svn/ver/146/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchPhotoDetailsActivity.java
+END
+FDSearchAreaFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchAreaFragment.java
+END
+FDSelectDishActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSelectDishActivity.java
+END
+FDInputPopupWindows.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDInputPopupWindows.java
+END
+FDBaseFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDBaseFragment.java
+END
+FDTrafficLocationDetailsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDTrafficLocationDetailsActivity.java
+END
+FDRestCommentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/fdAndroidPublic/!svn/ver/153/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDRestCommentActivity.java
+END
+FDCompanyMessageActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/fdAndroidPublic/!svn/ver/109/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDCompanyMessageActivity.java
+END
+FDDishCommentActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/fdAndroidPublic/!svn/ver/43/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDDishCommentActivity.java
+END
+FDSearchNearByFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchNearByFragment.java
+END
+FDSearchTrafficMapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchTrafficMapActivity.java
+END
+FDSearchResultActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/search/activity/FDSearchResultActivity.java
+END

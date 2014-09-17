@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:id="@+id/fd_traffic_route_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+            android:id="@+id/fd_traffic_route_setting_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="6dp"
+            android:singleLine="true"
+            android:hint="店名/菜名/路名"
+            android:textSize="15sp" 
+            android:drawablePadding="8dp"
+            android:imeOptions="actionDone"
+            android:autoText="true"
+            android:imeActionLabel="确定"
+            android:background="@drawable/main_header_search_bg"
+            android:drawableLeft="@drawable/main_header_search_left" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="left"
+            android:orientation="horizontal" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/fd_rest_map_background" />
+
+            <TextView
+                android:id="@+id/traffic_origin_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="我的位置"
+                android:textColor="#8B4726"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/traffic_origin_location_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#8B4726"
+                android:textSize="14sp" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fd_traffic_route_setting_layout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/fd_traffic_route_keyword_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+           <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fd_business_listitem_drivder" /> 
+            <ListView
+                android:id="@+id/fd_traffic_route_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@drawable/fd_business_listitem_drivder"
+                android:listSelector="#fff"
+                android:scrollbars="none"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fd_business_listitem_drivder" />
+
+        <LinearLayout
+            android:id="@+id/fd_traffic_route_clear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fd_traffic_route_clear_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="清空搜索记录"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fd_business_listitem_drivder" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

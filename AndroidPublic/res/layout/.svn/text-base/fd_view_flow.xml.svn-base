@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="2dp">
+	
+    <com.wondersgroup.fdpublicapp.home.advert.FDViewPager
+        android:id="@+id/super_main_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <com.wondersgroup.fdpublicapp.home.advert.CircleFlowIndicator
+        android:id="@+id/super_main_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       	android:gravity="center"
+       	android:layout_alignParentBottom="true"/>
+</RelativeLayout>

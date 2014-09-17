@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/fd_student_text_list_tv"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp" 
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@color/fd_dark_black_color" />
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"      
+            android:src="@drawable/line" />   
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fd_restaurant_seek_name_keyword_background" >
+
+    <RelativeLayout
+        android:id="@+id/fd_restaurant_seek_name_keyword_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back_seletor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关键字"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_restaurant_seek_name_keyword_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fd_restaurant_seek_name_keyword_rl"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+            android:id="@+id/fd_restaurant_seek_name_keyword_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:hint="餐厅名称/菜名/地址"
+            android:textSize="15sp" 
+            android:drawablePadding="8dp"
+            android:imeOptions="actionDone"
+            android:autoText="true"
+            android:imeActionLabel="确定"
+            android:layout_below="@id/fd_restaurant_seek_name_keyword_rl"
+            android:background="@drawable/main_header_search_bg"
+            android:drawableLeft="@drawable/main_header_search_left" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/fd_restaurant_seek_name_keyword_edit_layout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/fd_restaurant_seek_name_keyword_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/fd_restaurant_seek_name_keyword_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:divider="@drawable/fd_business_listitem_drivder"
+                android:listSelector="@color/white"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fd_business_listitem_drivder" />
+
+        <LinearLayout
+            android:id="@+id/fd_restaurant_seek_name_keyword_clear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_name_keyword_deleted_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="清空搜索记录"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fd_business_listitem_drivder" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <!-- 系统、消息回复 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"  >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/fd_query_condition_content_bg" >
+            <TextView
+                android:id="@+id/fd_user_message_reply_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:textSize="14sp"
+                android:textColor="@color/green" />
+        </RelativeLayout>
+
+        <TextView 
+            android:id="@+id/fd_user_message_reply_data_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="6dp"
+            android:text="xxxxxxxxxxxxxxxxxxxx"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/fd_user_message_reply_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:text="2013-12-1"
+                android:textColor="@color/text_unselect"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

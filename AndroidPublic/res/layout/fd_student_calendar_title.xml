@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="@color/gray"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/fd_student_calendar_last_month"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back_seletor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fd_student_calendar_year_month_text"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/fd_student_calendar_next_month"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_weight="0"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:rotation="180"
+            android:src="@drawable/back_seletor" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <RelativeLayout
+        android:id="@+id/fd_restaurant_coupon_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_restaurant_coupon_back_label"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:id="@+id/fd_coupon_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/coupon_header_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_restaurant_coupon_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_restaurant_coupon_title_label"
+        android:orientation="vertical" >
+        <com.wondersgroup.fdpublicapp.common.custom.xListView.LJListView
+            android:id="@+id/main_coupon_listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:background="@color/white"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+</RelativeLayout>

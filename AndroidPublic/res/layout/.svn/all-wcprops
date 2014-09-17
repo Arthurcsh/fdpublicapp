@@ -1,0 +1,995 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/fdAndroidPublic/!svn/ver/53/trunk/AndroidPublic/res/layout
+END
+pull_to_refresh_header2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/pull_to_refresh_header2.xml
+END
+fd_super_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_super_map.xml
+END
+fd_restaurant_seek_name_keywords.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_name_keywords.xml
+END
+fd_usercenter_my_coupon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_my_coupon.xml
+END
+fd_student_meals_seek_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_meals_seek_bottom.xml
+END
+fd_main_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_main_footer.xml
+END
+fd_student_meals_calculator_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/72/trunk/AndroidPublic/res/layout/fd_student_meals_calculator_main.xml
+END
+fd_rest_seek_cuisine_gridview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_cuisine_gridview.xml
+END
+fd_usercenter_my_recommend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_my_recommend.xml
+END
+fd_traffic_setting_keywords_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_traffic_setting_keywords_view.xml
+END
+single_pull_to_refresh_load_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/single_pull_to_refresh_load_more.xml
+END
+fd_common_photo_grid_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/51/trunk/AndroidPublic/res/layout/fd_common_photo_grid_item.xml
+END
+fd_student_school_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_list_item.xml
+END
+fd_rest_seek_cuisine_gridview_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_cuisine_gridview_item.xml
+END
+fd_student_school_favorite_rest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_favorite_rest.xml
+END
+fd_usercenter_my_coupon_favorite_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_my_coupon_favorite_item.xml
+END
+fd_restaurant_seek_name_keyword_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_name_keyword_listitem.xml
+END
+pull_to_refresh_header_vertical.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/pull_to_refresh_header_vertical.xml
+END
+fd_restaurant_menu_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/37/trunk/AndroidPublic/res/layout/fd_restaurant_menu_details_xml.xml
+END
+fd_restaurant_traffic_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_traffic_main.xml
+END
+fd_business_atmosphere_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_business_atmosphere_list.xml
+END
+fd_restaurant_seek_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/58/trunk/AndroidPublic/res/layout/fd_restaurant_seek_main.xml
+END
+fd_frame_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_frame_index.xml
+END
+fd_business_rests.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_business_rests.xml
+END
+fd_common_photo_item_popupwindows.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_photo_item_popupwindows.xml
+END
+fd_app_start.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_app_start.xml
+END
+fd_search_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_search_content.xml
+END
+fd_student_school_meal_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/fdAndroidPublic/!svn/ver/163/trunk/AndroidPublic/res/layout/fd_student_school_meal_details_xml.xml
+END
+fd_student_meals_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/26/trunk/AndroidPublic/res/layout/fd_student_meals_content.xml
+END
+fd_usercenter_my_recommend_cuisine_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/fdAndroidPublic/!svn/ver/131/trunk/AndroidPublic/res/layout/fd_usercenter_my_recommend_cuisine_item.xml
+END
+fd_serach_select_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_serach_select_list.xml
+END
+fd_ranking_member_condiction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_ranking_member_condiction.xml
+END
+fd_ranking_member_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_ranking_member_item.xml
+END
+fd_student_school_comment_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_student_school_comment_details_xml.xml
+END
+fd_usercenter_lost_pw_reset.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_lost_pw_reset.xml
+END
+fd_rest_seek_cuisine_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_cuisine_list.xml
+END
+fd_common_comment_reply.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/23/trunk/AndroidPublic/res/layout/fd_common_comment_reply.xml
+END
+fd_common_file_path_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_file_path_listitem.xml
+END
+fd_frame_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_frame_search.xml
+END
+fd_restaurant_seek_name_keyword_record_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_name_keyword_record_listitem.xml
+END
+fd_student_school_detail_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_detail_item.xml
+END
+pull_refresh_webview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/pull_refresh_webview.xml
+END
+fd_rest_traffic_locaton_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_traffic_locaton_xml.xml
+END
+fd_restaurant_menu_details_viewpage_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/fdAndroidPublic/!svn/ver/140/trunk/AndroidPublic/res/layout/fd_restaurant_menu_details_viewpage_item.xml
+END
+fd_rest_seek_result_mian_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/142/trunk/AndroidPublic/res/layout/fd_rest_seek_result_mian_listitem.xml
+END
+fd_coupon_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_coupon_details_xml.xml
+END
+fd_rest_seek_detail_comment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_detail_comment_item.xml
+END
+single_pull_to_refresh_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/single_pull_to_refresh_head.xml
+END
+fd_rest_seek_result_ll.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_result_ll.xml
+END
+fd_restaurant_menu_details_photo_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/fdAndroidPublic/!svn/ver/139/trunk/AndroidPublic/res/layout/fd_restaurant_menu_details_photo_list.xml
+END
+fd_usercenter_all_message_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_all_message_item.xml
+END
+fd_activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_activity_main.xml
+END
+fd_usercenter_login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fdAndroidPublic/!svn/ver/45/trunk/AndroidPublic/res/layout/fd_usercenter_login.xml
+END
+fd_student_meals_seek_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/160/trunk/AndroidPublic/res/layout/fd_student_meals_seek_main.xml
+END
+fd_common_timepicker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/51/trunk/AndroidPublic/res/layout/fd_common_timepicker.xml
+END
+fd_usercenter_info_view_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_info_view_xml.xml
+END
+fd_safety_info_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/51/trunk/AndroidPublic/res/layout/fd_safety_info_detail.xml
+END
+fd_usercenter_complete_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/58/trunk/AndroidPublic/res/layout/fd_usercenter_complete_info.xml
+END
+fd_student_school_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_detail.xml
+END
+fd_safety_info_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_safety_info_item.xml
+END
+fd_restaurant_list_spinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/151/trunk/AndroidPublic/res/layout/fd_restaurant_list_spinner.xml
+END
+fd_restaurant_menu_details_photo_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/fdAndroidPublic/!svn/ver/139/trunk/AndroidPublic/res/layout/fd_restaurant_menu_details_photo_listitem.xml
+END
+fd_model_sellers_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_model_sellers_main.xml
+END
+fd_student_calendar_title.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_calendar_title.xml
+END
+fd_student_meals_detail_comment_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_meals_detail_comment_xml.xml
+END
+ljlistview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/ljlistview.xml
+END
+fd_safety_info_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_safety_info_list.xml
+END
+fd_student_school_favorite_note_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/75/trunk/AndroidPublic/res/layout/fd_student_school_favorite_note_item.xml
+END
+fd_usercenter_lost_pw_sec_account.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_lost_pw_sec_account.xml
+END
+fd_student_school_meal_comment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_student_school_meal_comment_item.xml
+END
+fd_student_school_meal_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_meal_comment.xml
+END
+fd_student_school_favorite_cuisine_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/fdAndroidPublic/!svn/ver/131/trunk/AndroidPublic/res/layout/fd_student_school_favorite_cuisine_item.xml
+END
+ljlistview_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/ljlistview_header.xml
+END
+fd_usercenter_register_protocol_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_register_protocol_view.xml
+END
+fd_qr_code_capture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_qr_code_capture.xml
+END
+fd_usercenter_modify_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_modify_info.xml
+END
+fd_rest_seek_nearby_interface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_nearby_interface.xml
+END
+fd_common_comment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_comment_view.xml
+END
+fd_usercenter_config_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/159/trunk/AndroidPublic/res/layout/fd_usercenter_config_main.xml
+END
+ljlistview_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/ljlistview_footer.xml
+END
+fd_main_delicacy_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_main_delicacy_listitem.xml
+END
+fd_search_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_search_view.xml
+END
+fd_common_photo_take_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_photo_take_view.xml
+END
+fd_restaurant_photo_details_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_photo_details_item.xml
+END
+fd_rest_seek_wholecity_interface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_wholecity_interface.xml
+END
+fd_common_forward_popupwindows.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/51/trunk/AndroidPublic/res/layout/fd_common_forward_popupwindows.xml
+END
+fd_common_note_comment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fdAndroidPublic/!svn/ver/23/trunk/AndroidPublic/res/layout/fd_common_note_comment.xml
+END
+fd_common_horizontal_view_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_horizontal_view_item.xml
+END
+fd_student_school_meals_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_meals_listitem.xml
+END
+fd_common_progress_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/116/trunk/AndroidPublic/res/layout/fd_common_progress_dialog.xml
+END
+fd_restaurant_seek_atmosphere.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_atmosphere.xml
+END
+fd_usercenter_my_comments.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_my_comments.xml
+END
+fd_rest_main_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/fdAndroidPublic/!svn/ver/23/trunk/AndroidPublic/res/layout/fd_rest_main_info.xml
+END
+fd_usercenter_my_comments_note_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/fdAndroidPublic/!svn/ver/23/trunk/AndroidPublic/res/layout/fd_usercenter_my_comments_note_item.xml
+END
+fd_restaurant_photo_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_photo_details_xml.xml
+END
+fd_rest_list_spinner_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_list_spinner_item.xml
+END
+fd_map_location_header_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_map_location_header_view.xml
+END
+fd_usercenter_my_message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_my_message.xml
+END
+fd_business_area_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_business_area_list.xml
+END
+ljlistview_infohint.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/ljlistview_infohint.xml
+END
+fd_restaurant_traffic_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_traffic_xml.xml
+END
+fd_restaurant_traffic_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_traffic_listitem.xml
+END
+fd_rest_seek_result_area_mian.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_result_area_mian.xml
+END
+fd_rest_traffic_location_details_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_traffic_location_details_list.xml
+END
+fd_rest_seek_comment_reply_reply_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_comment_reply_reply_item.xml
+END
+fd_rest_seek_detail_comment_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_detail_comment_layout.xml
+END
+fd_usercenter_message_reply_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_message_reply_item.xml
+END
+fd_student_school_meal_nutrition_component.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/fdAndroidPublic/!svn/ver/135/trunk/AndroidPublic/res/layout/fd_student_school_meal_nutrition_component.xml
+END
+fd_student_school_favorite.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_favorite.xml
+END
+fd_student_school_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_list.xml
+END
+fd_student_school_meals_fragment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_meals_fragment.xml
+END
+fd_ranking_seller_condiction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_ranking_seller_condiction.xml
+END
+fd_search_condiction.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_search_condiction.xml
+END
+fd_comment_dish_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/31/trunk/AndroidPublic/res/layout/fd_comment_dish_view.xml
+END
+pull_to_load_footer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/pull_to_load_footer.xml
+END
+fd_common_pull_listview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_pull_listview.xml
+END
+fd_common_note_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/85/trunk/AndroidPublic/res/layout/fd_common_note_detail.xml
+END
+fd_rest_traffic_location_details_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_traffic_location_details_listitem.xml
+END
+fd_common_photo_seek_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_photo_seek_view.xml
+END
+fd_student_school_comment_reply_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_student_school_comment_reply_item.xml
+END
+fd_common_file_path_chooser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_file_path_chooser.xml
+END
+fd_custom_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/fdAndroidPublic/!svn/ver/72/trunk/AndroidPublic/res/layout/fd_custom_dialog.xml
+END
+fd_business_credit_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_business_credit_listitem.xml
+END
+fd_frame_coupon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_frame_coupon.xml
+END
+fd_usercenter_lost_pw_sec_ques.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_lost_pw_sec_ques.xml
+END
+fd_app_loading.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_app_loading.xml
+END
+fd_search_header_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_search_header_view.xml
+END
+fd_usercenter_register.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/fdAndroidPublic/!svn/ver/99/trunk/AndroidPublic/res/layout/fd_usercenter_register.xml
+END
+fd_student_school_favorite_rest_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/fdAndroidPublic/!svn/ver/131/trunk/AndroidPublic/res/layout/fd_student_school_favorite_rest_item.xml
+END
+fd_student_school_type_popup_window.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_type_popup_window.xml
+END
+fd_usercenter_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/fdAndroidPublic/!svn/ver/51/trunk/AndroidPublic/res/layout/fd_usercenter_view.xml
+END
+fd_restaurant_seek_business_area.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_business_area.xml
+END
+fd_rest_seek_credit_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_seek_credit_list.xml
+END
+pull_to_refresh_header_horizontal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/pull_to_refresh_header_horizontal.xml
+END
+fd_rest_traffic_location_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_traffic_location_listitem.xml
+END
+fd_restaurant_menu_details_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_menu_details_item.xml
+END
+fd_student_school_meal_nutrition_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_meal_nutrition_item.xml
+END
+fd_usercenter_lost_pw_phone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_lost_pw_phone.xml
+END
+fd_usercenter_message_manager.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_message_manager.xml
+END
+fd_restaurant_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/88/trunk/AndroidPublic/res/layout/fd_restaurant_details_xml.xml
+END
+fd_student_school_meals_table.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_meals_table.xml
+END
+fd_rest_img.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_rest_img.xml
+END
+pull_to_refresh_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/pull_to_refresh_header.xml
+END
+fd_restaurant_traffic_map_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_traffic_map_details.xml
+END
+fd_coupon_result_mian_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_coupon_result_mian_listitem.xml
+END
+fd_restaurant_seek_cuisine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_cuisine.xml
+END
+fd_common_input_popupwindows.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_input_popupwindows.xml
+END
+fd_restaurant_seek_credit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_seek_credit.xml
+END
+fd_usercenter_my_message_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/fdAndroidPublic/!svn/ver/131/trunk/AndroidPublic/res/layout/fd_usercenter_my_message_item.xml
+END
+fd_search_detail_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_search_detail_content.xml
+END
+fd_usercenter_my_comments_dish_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/130/trunk/AndroidPublic/res/layout/fd_usercenter_my_comments_dish_item.xml
+END
+fd_usercenter_lost_pw.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_usercenter_lost_pw.xml
+END
+fd_ranking_table.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_ranking_table.xml
+END
+fd_usercenter_my_recommend_rest_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/fdAndroidPublic/!svn/ver/131/trunk/AndroidPublic/res/layout/fd_usercenter_my_recommend_rest_item.xml
+END
+fd_restaurant_comment_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_restaurant_comment_view.xml
+END
+fd_view_flow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/fdAndroidPublic/!svn/ver/9/trunk/AndroidPublic/res/layout/fd_view_flow.xml
+END
+fd_common_photo_bucket_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_common_photo_bucket_item.xml
+END
+fd_usercenter_my_comments_rest_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/fdAndroidPublic/!svn/ver/130/trunk/AndroidPublic/res/layout/fd_usercenter_my_comments_rest_item.xml
+END
+fd_safety_info_table.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_safety_info_table.xml
+END
+fd_ranking_seller_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_ranking_seller_item.xml
+END
+fd_student_school_type_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_student_school_type_item.xml
+END
+fd_main_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/fdAndroidPublic/!svn/ver/23/trunk/AndroidPublic/res/layout/fd_main_header.xml
+END
+fd_comment_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/fdAndroidPublic/!svn/ver/23/trunk/AndroidPublic/res/layout/fd_comment_item.xml
+END
+fd_business_area_lisitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/res/layout/fd_business_area_lisitem.xml
+END
+fd_dish_details_xml.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/fdAndroidPublic/!svn/ver/134/trunk/AndroidPublic/res/layout/fd_dish_details_xml.xml
+END

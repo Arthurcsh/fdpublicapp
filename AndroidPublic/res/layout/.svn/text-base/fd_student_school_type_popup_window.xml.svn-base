@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@android:color/transparent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_student_school_window"
+        android:layout_width="260dp"
+        android:layout_height="300dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/layout_student_school_title"  
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@color/dark_green" >
+
+            <TextView
+              android:id="@+id/student_school_text_title"  
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/student_meals_select_school_type"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_student_school_title"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@color/white" >
+
+            <ListView
+                android:id="@+id/school_type_select_list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:divider="@drawable/line"
+                android:listSelector="@color/grays"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

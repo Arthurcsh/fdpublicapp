@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal
+END
+RotateLoadingLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/RotateLoadingLayout.java
+END
+EmptyViewMethodAccessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/EmptyViewMethodAccessor.java
+END
+FlipLoadingLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/FlipLoadingLayout.java
+END
+IndicatorLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/IndicatorLayout.java
+END
+ViewCompat.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/ViewCompat.java
+END
+LoadingLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/LoadingLayout.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/common/custom/pullrefresh/internal/Utils.java
+END

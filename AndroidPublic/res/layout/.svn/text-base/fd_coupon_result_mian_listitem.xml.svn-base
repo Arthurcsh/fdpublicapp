@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="2dp"
+    android:background="@color/light_gray">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp" 
+        android:background="@drawable/fd_rest_seek_result_listitem_background">
+        <LinearLayout
+            android:id="@+id/main_coupon_layout"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:padding="4dp" >
+            <ImageView
+                android:id="@+id/main_coupon_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/menu_details_photo_list_background" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/main_coupon_layout"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_marginTop="4dp">
+                <TextView
+                    android:id="@+id/main_coupon_info_name"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                   android:textColor="@color/green"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:id="@+id/main_coupon_favorable_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/main_coupon_info_name"
+                    android:src="@drawable/fd_restaurant_details_favorable_img" />
+                <TextView
+                    android:id="@+id/main_coupon_info_desc"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/main_coupon_favorable_img"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="#A8A8A8"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="18dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal" >
+                <TextView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="优惠：" 
+                    android:textSize="14sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/main_hot_restaurant_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green"
+                    android:textStyle="italic"
+                    android:textSize="14sp" 
+                    android:text="88折优惠券" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/main_hot_restaurant_address"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

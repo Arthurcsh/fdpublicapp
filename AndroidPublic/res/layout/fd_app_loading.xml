@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" 
+	android:gravity="center_vertical" >
+	<com.wondersgroup.fdpublicapp.common.protocol.AppLoadingView
+	    android:id="@+id/main_loading_imageview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|center_vertical" 
+		android:src="@drawable/loading_frame_1" />
+
+<TextView
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="加载中..."
+	android:layout_marginTop="6dp"
+	android:textColor="#666666"
+	android:layout_gravity="center_horizontal"
+	android:textSize="14sp" />
+</LinearLayout>

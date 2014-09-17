@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_protocol_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 标题文字 -->
+        <TextView
+            android:id="@+id/tv_fd_usercenter_protocol_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="尊敬的客户，欢迎您注册成为本应用用户。在注册前请您仔细阅读如下服务条款："
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_fd_usercenter_protocol_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="本服务协议双方为本网站与本网站客户，本服务协议具有合同效力。您确认本服务协议后，本服务协议即在您和本网站之间产生法律效力。请您务必在注册之前认真阅读全部服务协议内容，如有任何疑问，可向本网站咨询。 无论您事实上是否在注册之前认真阅读了本服务协议，只要您点击协议正本下方的'注册'按钮并按照本网站注册程序成功注册为用户，您的行为仍然表示您同意并签署了本服务协议。\n
+协议细则\t
+1、本网站服务条款的确认和接纳
+本网站各项服务的所有权和运作权归本网站拥有。\t
+2、用户必须：\t
+(1)自行配备上网的所需设备， 包括个人电脑、调制解调器或其他必备上网装置。\t
+(2)自行负担个人上网所支付的与此服务有关的电话费用、 网络费用。\t
+3、用户在本网站交易平台上不得发布下列违法信息：\t
+(1)反对宪法所确定的基本原则的；\t
+(2)危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\n"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

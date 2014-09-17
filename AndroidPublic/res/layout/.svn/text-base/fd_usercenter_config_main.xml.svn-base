@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <RelativeLayout
+        android:id="@+id/fd_usercenter_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_usercenter_back_label"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:id="@+id/fd_usercenter_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:src="@drawable/back_seletor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/usercenter_settings"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_usercenter_seek_list_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_usercenter_title_label"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/fd_usercenter_introduce_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/set_network_login" >
+
+            <TextView
+                android:id="@+id/fd_usercenter_introduce_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/usercenter_login_config_introducion"
+                android:textColor="@color/fd_select_item_layout_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fd_usercenter_introduce_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_usercenter_version_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_usercenter_version_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/usercenter_login_config_version"
+                android:textColor="@color/fd_select_item_layout_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fd_usercenter_version_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_usercenter_protocol_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_usercenter_protocol_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/usercenter_login_config_protocol"
+                android:textColor="@color/fd_select_item_layout_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fd_usercenter_protocol_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_usercenter_update_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_usercenter_update_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/usercenter_login_config_update"
+                android:textColor="@color/fd_select_item_layout_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fd_usercenter_update_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_usercenter_exit_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_last" >
+
+            <TextView
+                android:id="@+id/fd_usercenter_exit_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/usercenter_login_config_logout"
+                android:textColor="@color/fd_select_item_layout_color"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/fd_usercenter_exit_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

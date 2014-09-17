@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter
+END
+FDUserCommentDishAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserCommentDishAdapter.java
+END
+FDMessageReplyAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDMessageReplyAdapter.java
+END
+FDDishCommentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDDishCommentAdapter.java
+END
+FDUserRecommendRestAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/fdAndroidPublic/!svn/ver/149/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserRecommendRestAdapter.java
+END
+FDUserCommentNoteAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/fdAndroidPublic/!svn/ver/81/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserCommentNoteAdapter.java
+END
+FDMessageSystemAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/fdAndroidPublic/!svn/ver/62/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDMessageSystemAdapter.java
+END
+FDUserFragmentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserFragmentAdapter.java
+END
+FDMessageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/fdAndroidPublic/!svn/ver/62/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDMessageAdapter.java
+END
+FDShareSDKAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDShareSDKAdapter.java
+END
+FDUserCommentRestAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/fdAndroidPublic/!svn/ver/149/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserCommentRestAdapter.java
+END
+FDUserCouponFavoriteAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserCouponFavoriteAdapter.java
+END
+FDUserRecommendDishAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDUserRecommendDishAdapter.java
+END
+FDLeaveMessageAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/personal/adapter/FDLeaveMessageAdapter.java
+END

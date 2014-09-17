@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" > 
+    
+    <RelativeLayout
+        android:id="@+id/fd_rest_select_cuisine_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/fd_rest_select_cuisine_back_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/fd_rest_select_cuisine_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="选择推荐菜"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+    <com.wondersgroup.fdpublicapp.common.custom.pullrefresh.PullToRefreshGridView 
+        xmlns:ptr="http://schemas.android.com/apk/res-auto" 
+        android:id="@+id/fd_rest_pull_refresh_grid" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="6dp"
+        android:minHeight="280dp"
+        android:numColumns="auto_fit" 
+        android:verticalSpacing="1dp" 
+        android:horizontalSpacing="1dp" 
+        android:columnWidth="100dp" 
+        android:stretchMode="columnWidth" 
+        android:gravity="fill" 
+        android:listSelector="#00000000"
+        ptr:ptrMode="both"
+        ptr:ptrScrollingWhileRefreshingEnabled="true"  /> 
+        <!--  ptr:ptrShowIndicator="true" -->
+        
+    <Button
+        android:id="@+id/fd_rest_select_cuisine_submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/fd_widget_confirm_bottom_bg"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="#8B4726"
+        android:textSize="18sp" />
+</LinearLayout> 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 评论回复 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"  >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="2dp"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/fd_comment_reply_reply_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="火星"
+                android:textSize="16sp"
+                android:textColor="@color/green" />
+            <TextView
+                android:id="@+id/fd_comment_reply_reply_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="回复"
+                android:textSize="14sp"
+                android:textColor="@color/text_unselect" />
+            <TextView
+                android:id="@+id/fd_reply_reply_commenter_name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="我"
+                android:textSize="16sp"
+                android:textColor="@color/green" />
+            <TextView
+                android:id="@+id/fd_reply_reply_comment_next_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text=":"
+                android:textSize="14sp"
+                android:textColor="@color/text_unselect" />
+            
+            <TextView
+                android:id="@+id/fd_reply_reply_content_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:text="xxxxxxxxxxxxxxxxxxxx"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fd_usercenter_message_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical" >
+            <TextView
+                android:id="@+id/fd_reply_reply_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="2013-12-22 19:00"
+                android:textColor="@color/text_unselect"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fd_comment_reply_reply_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true" >
+            <ImageView
+                android:id="@+id/fd_comment_reply_reply_img"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/fd_comment_reply" />
+            <TextView
+                android:id="@+id/fd_reply_reply_comment_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:maxLines="1"
+                android:text="回复"
+                android:textColor="@color/green"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

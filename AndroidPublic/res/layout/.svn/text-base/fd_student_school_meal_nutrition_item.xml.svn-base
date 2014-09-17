@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@+id/student_meals_nutrition_component_name_textview"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@+id/student_meals_nutrition_component_value_textview"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

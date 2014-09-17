@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <RelativeLayout
+        android:id="@+id/student_school_comment_details_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/student_school_comment_details_back_img_layout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <!-- 返回按钮 -->
+            <ImageView
+                android:id="@+id/student_school_comment_details_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/student_school_comment_details_header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="评价"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/student_school_comment_details_dish_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/student_school_comment_details_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_school_comment_details_head_layout"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/student_school_comment_details_frist_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/fd_query_condition_content_bg" >
+                <TextView
+                    android:id="@+id/student_school_comment_dish_name_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" >
+                <TextView
+                    android:id="@+id/student_school_comment_detail_content_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:maxLines="6"
+                    android:ellipsize="end"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+                    <com.wondersgroup.fdpublicapp.common.custom.FDHorizontalListView
+                        android:id="@+id/student_school_comment_detail_imagelistView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:cacheColorHint="#00000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/student_school_comment_details_date_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:background="@color/white"
+            android:orientation="horizontal" >
+            <TextView 
+                android:id="@+id/fd_usercenter_comments_date_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:maxLines="9"
+                android:text="2013-12-22 19:00"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:id="@+id/fd_usercenter_comments_reply_layout"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="10dp" >
+                <ImageView
+                    android:id="@+id/fd_usercenter_comments_reply_img"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/fd_comment_reply" />
+            </LinearLayout>
+        </LinearLayout>
+        
+        <com.wondersgroup.fdpublicapp.common.custom.xListView.LJListView
+            android:id="@+id/student_school_comment_detail_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:background="@color/white"
+            android:orientation="vertical" />
+    </LinearLayout>
+        
+</RelativeLayout>

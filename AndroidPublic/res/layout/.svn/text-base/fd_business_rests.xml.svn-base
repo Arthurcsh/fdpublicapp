@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:id="@+id/fd_other_main_xml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:id="@+id/fd_business_others_atmosphere_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center" >
+                <TextView
+                    android:id="@+id/fd_table_others_atmosphere_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="@string/search_others_atmophere" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/fd_business_others_right" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/fd_business_others_driver_img1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fd_business_others_atmosphere_ll"
+                android:src="@drawable/fd_business_listitem_drivder" />
+
+            <RelativeLayout
+                android:id="@+id/fd_business_others_percapita_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/fd_business_others_driver_img1"
+                android:gravity="center" >
+                <TextView
+                    android:id="@+id/fd_table_others_person_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="@string/search_others_average" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/fd_business_others_right" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/fd_business_others_driver_img2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fd_business_others_percapita_ll"
+                android:src="@drawable/fd_business_listitem_drivder" />
+
+            <RelativeLayout
+                android:id="@+id/fd_business_others_order_ll"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@id/fd_business_others_driver_img2"
+                android:gravity="center" >
+                <TextView
+                    android:id="@+id/fd_table_others_order_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:text="@string/search_others_order" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="25dp"
+                    android:src="@drawable/fd_business_others_right" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/fd_business_others_driver_img3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fd_business_others_order_ll"
+                android:src="@drawable/fd_business_listitem_drivder" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fd_business_choose_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:src="@drawable/fd_business_others_choose" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/fd_other_subItem_xml"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+    
+</FrameLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_info_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 左上角 后退按钮 -->
+        <LinearLayout
+            android:id="@+id/llo_fd_usercenter_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/img_back_button_hint"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <!-- 标题文字 -->
+        <TextView
+            android:id="@+id/tv_fd_usercenter_info_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/usercenter_register_terms_link"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_fd_usercenter_info_view_xml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical" />
+</LinearLayout>

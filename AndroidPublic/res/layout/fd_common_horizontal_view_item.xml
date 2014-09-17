@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:gravity="center"
+        android:background="@drawable/fd_common_rectangle_border"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/common_horizontal_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/fd_gv_pic_show_failed_default"
+            android:orientation="vertical"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/layout_common_horizontal_item_deleted"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:gravity="top|right"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/common_horizontal_isselected"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="right|top"
+                android:background="@drawable/fd_usercenter_register_valid_fail"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/common_horizontal_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:text="xxxx" />
+    </RelativeLayout>
+
+</LinearLayout>

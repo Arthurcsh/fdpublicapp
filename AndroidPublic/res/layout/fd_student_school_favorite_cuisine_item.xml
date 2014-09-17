@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cell_height"
+    android:padding="4dp"
+    android:background="@drawable/fd_rest_details_background_two"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:layout_width="@dimen/cell_image_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/fd_school_favorite_cuisine_photo_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fd_gv_pic_show_failed_default" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/fd_school_favorite_cuisine_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fd_school_favorite_cuisine_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:ellipsize="end"
+                android:maxEms="9"
+                android:singleLine="true"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+            <ImageView
+                android:id="@+id/fd_school_favorite_cuisine_favorable_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/fd_restaurant_details_favorable_img" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fd_school_favorite_cuisine_company_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/fd_school_favorite_cuisine_name_layout"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/fd_school_favorite_cuisine_company_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:ellipsize="end"
+                android:maxEms="5"
+                android:singleLine="true"
+                android:text="肯德基 "
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fd_school_favorite_cuisine_address_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="南京路28号"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="6dp"
+            android:layout_below="@+id/fd_school_favorite_cuisine_company_layout"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收藏时间： "
+                android:textColor="#ADADAD"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/fd_school_favorite_cuisine_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="2013.12.20"
+                android:textColor="#ADADAD"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

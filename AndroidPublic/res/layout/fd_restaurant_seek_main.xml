@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <RelativeLayout
+        android:id="@+id/fd_restaurant_search_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_restaurant_search_back_label"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:id="@+id/fd_restaurant_title_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp" 
+                android:layout_centerVertical="true"
+                android:src="@drawable/back_seletor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/search_header_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_restaurant_seek_list_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_restaurant_search_title_label"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/fd_restaurant_seek_name_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/set_network_login" >
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_keyName_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="名称"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/fd_restaurant_seek_keyName_textview"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:imeActionLabel="确定"
+                android:autoText="true"
+                android:layout_toRightOf="@+id/fd_restaurant_seek_keyName_label"
+                android:hint="@string/search_select_keyword_text"
+                android:textSize="15sp" 
+                android:background="@drawable/fd_widget_edit_bg"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_restaurant_seek_cuisine_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_cuisine_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="菜系"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_cuisine_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/fd_restaurant_seek_cuisine_label"
+                android:text="@string/search_select_cuisine_text"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_restaurant_seek_credit_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_credit_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="信用"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_credit_textview"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/fd_restaurant_seek_credit_label"
+                android:text="@string/search_select_credit_text"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_restaurant_seek_shangquan_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_center_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="商圈"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_center_textview"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/fd_restaurant_seek_center_label"
+                android:editable="false"
+                android:singleLine="true"
+                android:text="@string/search_select_commerial_center_text"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/fd_restaurant_seek_atmosphere_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:background="@drawable/set_network_login_last" >
+
+            <TextView
+                android:id="@+id/search_atmosphere_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="氛围"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fd_restaurant_seek_atmosphere_textview"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/search_atmosphere_label"
+                android:text="@string/search_select_atmosphere_text"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_restaurant_seek_seek_img_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fd_restaurant_seek_list_ll"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/fd_restaurant_seek_search_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fd_restaurant_seek_seek_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_restaurant_seek_up_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fd_restaurant_seek_seek_img_ll"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fd_restaurant_seek_up_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/search_near_by_text"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

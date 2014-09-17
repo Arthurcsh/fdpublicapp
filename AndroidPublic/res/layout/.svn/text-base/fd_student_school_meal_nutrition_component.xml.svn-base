@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 标题部分 -->
+    <RelativeLayout
+        android:id="@+id/student_meals_nutrition_component_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/student_meals_nutrition_component_back_layout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"                
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/student_meals_nutrition_component_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_meals_school_nutrition_component"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/student_meals_nutrition_component_time_info_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+         </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_meals_nutrition_component_title_label"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/student_meals_nutrition_components_frist_layout"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fd_rest_details_background_one"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fd_rest_seek_result_listitem_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="2dp" >
+
+                <ImageView
+                    android:id="@+id/student_meals_nutrition_component_photo_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:padding="2dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ad_6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/student_meals_nutrition_components_two_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/coupont_details_frist_layout"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fd_rest_details_background_two"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/student_meals_menu_name_textview"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="营养餐"
+                    android:textColor="@color/dark_green"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/student_meals_company_name_textview"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="14dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:text="裕丰饮食店"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:src="@drawable/fd_business_listitem_drivder" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+                <TextView
+                    android:id="@+id/student_meals_nutrition_component_mainmat_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="本套餐所含营养成分见下表："
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/student_meals_nutrition_component_table_xml"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:scrollingCache="false"
+            android:cacheColorHint="#00000000"
+            android:fadingEdge="none"
+            android:background="@color/white"
+            android:divider="@drawable/fd_business_listitem_drivder"
+            android:listSelector="@color/grays" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

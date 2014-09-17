@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 最上面的 标题 -->
+
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 左上角 后退按钮 -->
+        <LinearLayout
+            android:id="@+id/llo_fd_usercenter_register_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_register_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/img_back_button_hint"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+        <!-- 标题文字 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/usercenter_register_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!-- 注册框 -->
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_register_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlo_fd_usercenter_register_title"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <!-- 注册框 邮箱地址  -->
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_register_email_input_hint"
+                android:src="@drawable/fd_usercenter_register_email" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_login_email"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_register_email_input_hint"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:width="200dp" />
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_register_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="1dp"
+                android:src="@drawable/fd_usercenter_register_valid_fail" />
+        </RelativeLayout>
+        
+        <!-- 手机号 -->
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_register_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_register_mobile_input_hint"
+                android:src="@drawable/fd_usercenter_register_mobile" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_login_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_register_mobile_input_hint"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:inputType="phone"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:width="200dp" />
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_register_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="1dp"
+                android:src="@drawable/fd_usercenter_register_valid_fail" />
+        </RelativeLayout>
+        
+        <!-- 注册框 昵称 -->
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_register_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_register_username_input_hint"
+                android:src="@drawable/fd_usercenter_login_loginname" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/et_fd_usercenter_register_nickName"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_register_username_input_hint"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:width="200dp" />
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_register_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="1dp"
+                android:src="@drawable/fd_usercenter_register_valid_fail" />
+        </RelativeLayout>
+        
+        <!-- 注册框 密码 -->
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_register_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_register_password_input_hint"
+                android:src="@drawable/fd_usercenter_login_pw" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_register_pw"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_register_password_input_hint"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:width="200dp" />
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_register_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="1dp"
+                android:src="@drawable/fd_usercenter_register_valid_fail" />
+        </RelativeLayout>
+        
+        <!-- 注册框 密码确认 -->
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_register_pw_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_last"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_register_confirm_password"
+                android:src="@drawable/fd_usercenter_login_pw" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_register_pw_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_register_confirm_password"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:width="200dp" />
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_register_verify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="1dp"
+                android:src="@drawable/fd_usercenter_register_valid_fail"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 注册按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/llo_fd_usercenter_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_register_list"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/imgv_fd_usercenter_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fd_usercenter_login_login_btn"
+            android:gravity="center"
+            android:text="@string/usercenter_register_register_btn"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <!-- 同意协议 -->
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_login_newuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_login_btn"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/checkb_fd_usercenter_register_agree_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:scaleX="0.60"
+            android:scaleY="0.60" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/usercenter_login_register"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_fd_usercenter_register_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="@string/usercenter_register_terms_link"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

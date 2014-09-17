@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 最上面的 标题 -->
+
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_login_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 左上角 后退按钮 -->
+
+        <LinearLayout
+            android:id="@+id/llo_fd_usercenter_login_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_login_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/img_back_button_hint"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+        <!-- 标题文字 -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/usercenter_login_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+    <!-- 登录框 -->
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_login_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/rlo_fd_usercenter_login_title"
+        android:layout_centerVertical="true"
+        android:orientation="vertical" >
+
+        <!-- 登录框 用户名 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_login_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/set_network_login"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_login_username_hint"
+                android:src="@drawable/fd_usercenter_login_loginname" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_login_loginName"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="用户名"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="15sp" 
+                android:maxLength="30"
+                android:width="240dp"/>
+        </RelativeLayout>
+        
+        <!-- 登录框 密码 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_login_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_last"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/usercenter_login_password_hint"
+                android:src="@drawable/fd_usercenter_login_pw" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_login_pw"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_login_password_input_hint"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:maxLength="20"
+                android:width="240dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 记住密码 找回密码 -->
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_remember_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_login_list"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 记住密码 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/checkb_fd_usercenter_login_remeber_pw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:scaleX="0.60"
+                android:scaleY="0.60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usercenter_login_remember_password"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!-- 找回密码 -->
+
+        <TextView
+            android:id="@+id/textv_fd_usercenter_login_lost_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:text="@string/usercenter_login_lost_password"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- 登录按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/llo_fd_usercenter_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_remember_pw"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/imgv_fd_usercenter_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:text="@string/usercenter_login_login_btn"
+            android:contentDescription="@string/usercenter_login_login_btn"
+            android:background="@drawable/fd_usercenter_login_login_btn" />
+    </RelativeLayout>
+
+    <!-- 新用户注册 -->
+    <LinearLayout
+        android:id="@+id/layout_fd_usercenter_login_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_login_btn"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/llo_fd_usercenter_login_register"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/textv_fd_usercenter_login_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/usercenter_login_register"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+    
+    <!-- 第三方平台登录 -->
+    <LinearLayout
+        android:id="@+id/fd_usercenter_login_thirdparty_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_fd_usercenter_login_register"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usercenter_login_use_thirdparty"
+            android:textColor="@color/gray"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- 新浪微博 -->
+
+            <LinearLayout
+                android:id="@+id/layout_fd_usercenter_login_thirdparty_weibo"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/imgv_fd_usercenter_login_thirdparty_weibo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/usercenter_login_thirdparty_weibo"
+                    android:src="@drawable/fd_usercenter_login_thirdparty_weibo" />
+            </LinearLayout>
+
+            <!-- QQ -->
+
+            <LinearLayout
+                android:id="@+id/layout_fd_usercenter_login_thirdparty_qq"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgv_fd_usercenter_login_thirdparty_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/usercenter_login_thirdparty_qq"
+                    android:src="@drawable/fd_usercenter_login_thirdparty_qq" />
+            </LinearLayout>
+
+            <!-- 微信 -->
+            <LinearLayout
+                android:id="@+id/layout_fd_usercenter_login_thirdparty_weixin"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/imgv_fd_usercenter_login_thirdparty_weixin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/usercenter_login_thirdparty_weixin"
+                    android:src="@drawable/fd_usercenter_login_thirdparty_weixin" />
+            </LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

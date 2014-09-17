@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service
+END
+FDManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/fdAndroidPublic/!svn/ver/118/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service/FDManager.java
+END
+FDRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service/FDRestClient.java
+END
+FDConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service/FDConnection.java
+END
+AbstractManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service/AbstractManager.java
+END
+FDConst.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/fdAndroidPublic/!svn/ver/118/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service/FDConst.java
+END
+AbstractService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/fdAndroidPublic/!svn/ver/4/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/service/AbstractService.java
+END

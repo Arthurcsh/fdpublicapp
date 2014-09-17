@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+        android:id="@+id/ranking_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="@color/white"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+    <RadioGroup
+        android:id="@+id/fd_ranking_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:checkedButton="@+id/ranking_seller_footbar"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/ranking_seller_footbar"
+            style="@style/main_mutiple_radio"
+            android:text="商户排行"
+            android:drawableLeft="@drawable/fd_ranking_sellers_select_bg" />
+
+        <RadioButton
+            android:id="@+id/ranking_member_footbar"
+            style="@style/main_mutiple_radio"
+            android:text="会员排行"
+            android:drawableLeft="@drawable/fd_ranking_members_select_bg" />
+    </RadioGroup>
+
+</LinearLayout>

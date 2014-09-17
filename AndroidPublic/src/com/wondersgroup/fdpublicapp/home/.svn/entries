@@ -1,0 +1,52 @@
+10
+
+dir
+56
+https://10.1.63.114/svn/fdAndroidPublic/trunk/AndroidPublic/src/com/wondersgroup/fdpublicapp/home
+https://10.1.63.114/svn/fdAndroidPublic
+
+
+
+2014-09-02T02:21:42.591797Z
+55
+chengshaohua
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e08cb81d-2697-7744-91b6-60c542a5c275
+
+advert
+dir
+
+delicacy
+dir
+
+hotFood
+dir
+
+main
+dir
+
+modeSeller
+dir
+
+nutritionMeal
+dir
+
+ranking
+dir
+
+safety
+dir
+

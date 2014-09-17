@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/fd_rest_seek_result_listitem_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"  >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="@drawable/fd_query_condition_content_bg" >
+            <TextView
+                android:id="@+id/safety_info_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textSize="14sp"
+                android:textColor="@color/green" />
+            <LinearLayout
+                android:id="@+id/safety_info_detail_layout"
+                android:layout_width="60dp"
+                android:layout_height="match_parent" 
+                android:layout_alignParentRight="true" 
+                android:gravity="center" >
+                <ImageView
+                    android:id="@+id/safety_info_detail_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:src="@drawable/green_right_arrow" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView 
+            android:id="@+id/safety_info_content_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:padding="2dp" >
+            <com.wondersgroup.fdpublicapp.common.custom.FDHorizontalListView
+                android:id="@+id/fd_safety_info_photo_imagelistView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000" />
+        </LinearLayout>
+                
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/safety_supervision_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/safety_supervision_date_tv"
+                android:ellipsize="end"
+                android:text="市食安办"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/safety_supervision_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/black"
+                android:text="2013-12-1"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" 
+    android:orientation="vertical" >
+
+    <com.wondersgroup.fdpublicapp.widget.FDScrollLayout
+        android:id="@+id/main_scrolllayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_content_bg"
+        android:scrollbars="none" 
+        android:layout_weight="1" >
+
+        <!-- <include layout="@layout/fd_frame_index" /> -->
+        <!-- <include layout="@layout/fd_frame_search" /> -->
+        <com.wondersgroup.fdpublicapp.home.main.views.FDIndexView
+            android:id="@+id/super_main_index_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+        <com.wondersgroup.fdpublicapp.search.views.FDSearchView 
+            android:id="@+id/super_main_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+        <com.wondersgroup.fdpublicapp.coupon.views.FDCouponView 
+            android:id="@+id/super_main_coupon_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+        <com.wondersgroup.fdpublicapp.personal.views.FDUserCenterView 
+            android:id="@+id/fd_usercenter_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"  />
+    </com.wondersgroup.fdpublicapp.widget.FDScrollLayout>
+
+    <include layout="@layout/fd_main_footer" />
+
+</LinearLayout>

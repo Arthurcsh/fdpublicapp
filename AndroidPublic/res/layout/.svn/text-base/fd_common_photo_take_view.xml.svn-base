@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- 图片选取   -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="2dp"
+            android:orientation="vertical"
+            android:background="@color/white" >
+
+            <LinearLayout
+                android:id="@+id/fd_common_take_image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/fd_rest_details_background_two"
+                android:orientation="horizontal" >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:padding="4dp" >
+
+                    <LinearLayout
+                        android:id="@+id/fd_common_take_image_add_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="#dcdddd"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp" >
+
+                        <ImageView
+                            android:id="@+id/fd_common_take_add_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/fd_main_add_image_bg" />
+
+                        <TextView
+                            android:id="@+id/fd_common_take_add_textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text="上传图片"
+                            android:textColor="@color/fd_select_item_layout_color"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:orientation="vertical"
+                    android:padding="2dp" >
+
+                    <com.wondersgroup.fdpublicapp.common.custom.FDHorizontalListView
+                        android:id="@+id/fd_common_take_photo_imagelistView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:cacheColorHint="#00000000" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/fd_common_take_photo_submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/fd_widget_confirm_bottom_bg"
+                android:gravity="center"
+                android:text="提交"
+                android:textColor="#8B4726"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</merge>

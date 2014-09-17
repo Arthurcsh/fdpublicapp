@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_map_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:background="@drawable/main_header_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/header_map_back_Linear"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical|center_horizontal" >
+        <ImageView
+            android:id="@+id/header_map_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back_seletor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/header_map_result_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+    <LinearLayout
+        android:id="@+id/header_map_location"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"  >
+
+       <!--  <ImageView
+            android:id="@+id/header_map_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical" 
+            android:background="@drawable/main_header_search" /> -->
+        
+         <LinearLayout
+             android:id="@+id/header_search_list_area"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent" 
+             android:gravity="center_vertical|center_horizontal"
+             android:visibility="gone" >
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginRight="26dp"
+                 android:background="@drawable/search_header_list"
+                 android:gravity="center_vertical" />
+         </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

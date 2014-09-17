@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <!-- 营养餐详情 早餐、午餐、晚餐   -->
+    <!-- 标题部分 -->
+    <RelativeLayout
+        android:id="@+id/fd_student_meals_table_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_student_meals_table_back_layout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"                
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fd_student_meals_table_title_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student_meals_search_title"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/fd_student_meals_time_info_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014-04-20"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/fd_student_meals_type_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="午餐"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+         </LinearLayout>
+    </RelativeLayout>
+    <com.wondersgroup.fdpublicapp.home.delicacy.views.FDCustomViewPager
+        android:id="@+id/student_meal_detail_table_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="@color/white"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+   <RadioGroup
+        android:id="@+id/fd_student_meal_table_tabbar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:checkedButton="@+id/student_meal_table_breakfast"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/student_meal_table_breakfast"
+            style="@style/main_mutiple_radio"
+            android:padding="0dp"
+            android:gravity="center"
+            android:text="@string/student_meals_school_table_breakfast" />
+        <RadioButton
+            android:id="@+id/student_meal_table_moring_meal"
+            style="@style/main_mutiple_radio"
+            android:padding="0dp"
+            android:gravity="center"
+            android:text="@string/student_meals_school_table_moring_meal" />
+        <RadioButton
+            android:id="@+id/student_meal_table_lunch"
+            style="@style/main_mutiple_radio"
+            android:padding="0dp"
+            android:gravity="center"
+            android:text="@string/student_meals_school_table_lunch" />
+
+        <RadioButton
+            android:id="@+id/student_meal_table_afternoon_meal"
+            style="@style/main_mutiple_radio"
+            android:padding="0dp"
+            android:gravity="center"
+            android:text="@string/student_meals_school_table_afternoon_meal" />
+        <RadioButton
+            android:id="@+id/student_meal_table_dinner"
+            style="@style/main_mutiple_radio"
+            android:padding="0dp"
+            android:gravity="center"
+            android:text="@string/student_meals_school_table_dinner" />
+    </RadioGroup>
+
+</LinearLayout>

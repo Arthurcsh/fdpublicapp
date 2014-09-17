@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/fd_school_meal_table_message_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="查无营养餐次信息.."
+        android:textColor="#8B5A00"
+        android:textSize="16sp"
+        android:visibility="gone" />
+    <ListView
+        android:id="@+id/student_school_meal_table_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@drawable/fd_business_listitem_drivder"
+        android:dividerHeight="3dp"
+        android:listSelector="@color/grays" />
+
+</LinearLayout>

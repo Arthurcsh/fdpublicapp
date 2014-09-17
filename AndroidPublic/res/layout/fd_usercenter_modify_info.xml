@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <!-- 最上面的 标题 -->
+
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_modify_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- 左上角 后退按钮 -->
+        <LinearLayout
+            android:id="@+id/llo_fd_usercenter_modify_info_back"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/imgv_fd_usercenter_modify_info_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+        
+        <!-- 标题文字 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/usercenter_modify_info_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <!-- 个人头像 -->
+
+    <RelativeLayout
+        android:id="@+id/rlo_fd_usercenter_modify_info_headerimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlo_fd_usercenter_modify_info_title"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 个人头像 -->
+
+        <ImageView
+            android:id="@+id/img_fd_usercenter_modify_info_headerimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fd_usercenter_user_info_headerimg" />
+    </RelativeLayout>
+
+    <!-- 内容框 -->
+
+    <LinearLayout
+        android:id="@+id/llo_fd_usercenter_modify_info_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rlo_fd_usercenter_modify_info_headerimg"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <!-- 昵称 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_modify_info_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_nickname_label"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_modify_info_nickname"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_modify_info_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textv_fd_usercenter_modify_info_nickname_label"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="从从"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="30"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <!-- 性别 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_modify_info_sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_sex_label"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_modify_info_sex"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+           <!--  <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_modify_info_sex_label"
+                android:hint="女"
+                android:textSize="16sp" /> -->
+            <LinearLayout
+                android:id="@+id/llo_fd_usercenter_modify_info_sex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/textv_fd_usercenter_modify_info_sex_label"
+                android:orientation="vertical" >
+
+                <RadioGroup
+                    android:id="@+id/rg_fd_usercenter_modify_info_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rb_fd_usercenter_modify_info_sex_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="@string/usercenter_complete_info_sex_m"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/rb_fd_usercenter_modify_info_sex_f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/usercenter_complete_info_sex_f"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </RelativeLayout>
+        <!-- 生日 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_modify_info_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_birthday_label"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_modify_info_birthday"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_birthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_modify_info_birthday_label"
+                android:hint="2014-05-12"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <!-- 密码 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_modify_info_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_pw_label"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_modify_info_pw_label"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_modify_info_pw"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textv_fd_usercenter_modify_info_pw_label"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_modify_info_pw"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+        <!-- 再次输入密码 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_modify_info_againpw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_againpw_label"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_modify_info_againpw_label"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_modify_info_againpw"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textv_fd_usercenter_modify_info_againpw_label"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="@string/usercenter_modify_info_againpw"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <!-- 手机 -->
+
+        <RelativeLayout
+            android:id="@+id/rlo_fd_usercenter_modify_info_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_last"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_phone_label"
+                android:layout_width="33dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/usercenter_modify_info_phone"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+           <!--  <TextView
+                android:id="@+id/textv_fd_usercenter_modify_info_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textv_fd_usercenter_modify_info_phone_label"
+                android:hint="12345678901"
+                android:textSize="16sp" /> -->
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/editt_fd_usercenter_modify_info_phone"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@+id/textv_fd_usercenter_modify_info_phone_label"
+                android:background="@drawable/fd_widget_edit_bg"
+                android:hint="12345678901"
+                android:imeActionLabel="确定"
+                android:imeOptions="actionDone"
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- 确定按钮 -->
+
+    <RelativeLayout
+        android:id="@+id/llo_fd_usercenter_modify_info_okbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llo_fd_usercenter_modify_info_list"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_fd_usercenter_modify_info_okbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fd_usercenter_login_login_btn"
+            android:contentDescription="@string/usercenter_login_login_btn"
+            android:gravity="center"
+            android:text="@string/usercenter_modify_info_okbtn"
+            android:textColor="#000"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

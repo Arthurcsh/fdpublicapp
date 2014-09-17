@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <!-- 餐厅详情点评 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:background="@color/white" >
+        <TextView
+            android:id="@+id/fd_rest_comments_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:maxLines="1"
+            android:textColor="@color/text_unselect"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:id="@+id/fd_rest_comments_consumption_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+            <RatingBar
+                android:id="@+id/fd_rest_comments_rating"
+                style="@style/safetyCreditRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:isIndicator="false"
+                android:numStars="5"
+                android:rating="3.5" />
+            <TextView
+                android:id="@+id/fd_rest_comments_average_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:text="人均 "
+                android:textColor="@color/text_unselect"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/fd_rest_comments_average_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:maxLines="1"
+                android:textColor="@color/text_unselect"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:maxLines="1"
+                android:text="元"
+                android:textColor="@color/text_unselect"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_rest_comments_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <!-- 点评内容 -->
+        <TextView
+            android:id="@+id/fd_rest_comments_content_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="6"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fd_rest_comments_reply_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:gravity="left|center_vertical"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/fd_rest_comments_date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:maxLines="9"
+            android:textColor="@color/text_unselect"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

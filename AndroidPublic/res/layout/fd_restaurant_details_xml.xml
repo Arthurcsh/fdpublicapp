@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+    <RelativeLayout
+        android:id="@+id/rest_details_head_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/rest_details_back_img_ll"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal" >
+
+            <!-- 返回按钮 -->
+            <ImageView
+                android:id="@+id/rest_details_back_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rest_details_name_tv_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="餐厅详情"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <!-- 点顶 按钮 -->
+
+        <!-- 推荐 -->
+        <RelativeLayout
+            android:id="@+id/fd_search_details_recommend_layout"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/fd_search_details_favorite_layout"
+            android:gravity="center" >
+            <ImageView
+                android:id="@+id/fd_search_details_support_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/fd_restaurant_details_support_enable" />
+        </RelativeLayout>
+        
+        <!-- 收藏  -->
+        <RelativeLayout
+            android:id="@+id/fd_search_details_favorite_layout"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:gravity="center" >
+            <ImageView
+                android:id="@+id/fd_search_details_favorite_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/fd_restaurant_details_star_level" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rest_details_head_rl"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include layout="@layout/fd_rest_main_info"
+                android:id="@+id/rest_details_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            
+            <LinearLayout
+                android:id="@+id/rest_details_two_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rest_details_info_layout"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/fd_rest_details_background_two"
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:text="优惠信息"
+                    android:textColor="#8B4726"
+                    android:textSize="12sp" />
+                <RelativeLayout
+                    android:id="@+id/rest_details_coupon_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/rest_details_special_offers_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="5dp"
+                        android:maxLines="2"
+                        android:lineSpacingExtra="1dp"
+                        android:textColor="#000"
+                        android:textSize="15sp" />
+ <!-- android:text="指定门店享相应折扣(烟酒饮料、河海鲜、特价菜、套餐除外)" -->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/mm_submenu_normal" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rest_details_safety_rl"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@id/rest_details_two_ll"
+                android:layout_marginTop="2dp"
+                android:background="#fff" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp"
+                    android:text="食品安全信息"
+                    android:textColor="#8B4726"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/mm_submenu_normal" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/rest_details_recommends_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rest_details_safety_rl"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/fd_rest_details_background_two"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="10dp"
+                    android:text="网友推荐"
+                    android:textColor="#8B4726"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <TextView
+                        android:id="@+id/rest_details_recommend_cuisine_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="5dp"
+                        android:maxLines="4"
+                        android:lineSpacingExtra="1dp"
+                        android:ellipsize="end"
+                        android:textColor="#000"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/mm_submenu_normal" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rest_details_comment_layout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/fd_rest_details_background_last"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <TextView
+                        android:id="@+id/rest_details_comment_number_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="4dp"
+                        android:text="点评  ( 共  0条   )"
+                        android:textColor="#8B4726"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <include layout="@layout/fd_rest_seek_detail_comment_layout"
+                        android:id="@+id/rest_details_comment_content_item"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="5dp" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/mm_submenu_normal" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/rest_details_comment_date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="8dp"
+                    android:textColor="#ADADAD"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rest_details_leave_word_layout"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_below="@id/rest_details_comment_layout"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="2dp"
+                android:background="#fff" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp"
+                    android:text="给商家留言"
+                    android:textColor="#8B4726"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/mm_submenu_normal" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+         <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/fd_restaurant_details_comment_img" />
+    -->
+
+</RelativeLayout>

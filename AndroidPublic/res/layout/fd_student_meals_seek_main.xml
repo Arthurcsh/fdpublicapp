@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grays" >
+
+        <!-- 标题部分 -->
+    <RelativeLayout
+        android:id="@+id/fd_student_meals_search_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/main_header_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fd_student_meals_search_back_layout"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" 
+            android:gravity="center_vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"                
+                android:src="@drawable/back_seletor" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/student_meals_search_title"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+     <!-- 搜索条件 -->
+    <LinearLayout
+        android:id="@+id/fd_student_meals_seek_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fd_student_meals_search_title_label"
+        android:orientation="vertical" >
+
+         <!-- 行政区 -->
+        <RelativeLayout
+            android:id="@+id/fd_student_meals_seek_name_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/set_network_login" >
+
+            <TextView
+                android:id="@+id/fd_student_meals_seek_area_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="26dp"
+                android:paddingTop="5dp"
+                android:text="@string/student_meals_search_area"
+                android:textColor="#000"
+                android:textSize="16sp" />
+            
+            <TextView
+                android:id="@+id/fd_student_meals_seek_area_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/fd_student_meals_seek_area_label"
+                android:text="@string/student_meals_search_area_hint"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/fd_student_meals_seek_area_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+         <!-- 学校类型  -->
+        <RelativeLayout
+            android:id="@+id/fd_student_meals_seek_school_type_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_mid" >
+
+            <TextView
+                android:id="@+id/fd_student_meals_seek_school_type_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="@string/student_meals_search_school_type"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/fd_student_meals_seek_school_type_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/fd_student_meals_seek_school_type_label"
+                android:text="@string/student_meals_search_school_type_hint"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/fd_student_meals_seek_school_type_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/mm_submenu_normal" />
+        </RelativeLayout>
+
+         <!-- 学校名称  -->
+        <RelativeLayout
+            android:id="@+id/fd_student_meals_seek_school_name_rll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_network_login_last" >
+
+            <TextView
+                android:id="@+id/fd_student_meals_seek_school_name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="42dp"
+                android:paddingTop="5dp"
+                android:text="@string/student_meals_search_school_name"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <com.wondersgroup.fdpublicapp.common.custom.FDClearEditText
+                android:id="@+id/fd_student_meals_seek_school_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:autoText="true"
+                android:layout_toRightOf="@+id/fd_student_meals_seek_school_name_label"
+                android:hint="@string/student_meals_search_school_name_hint"
+                android:textSize="15sp" 
+                android:background="@drawable/fd_edit_no_border"/>
+        </RelativeLayout>       
+    </LinearLayout>
+
+    <!-- 搜索按钮  -->    <LinearLayout
+        android:id="@+id/fd_student_meals_seek_botton_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fd_student_meals_seek_list"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fd_restaurant_seek_seek_background" />
+    </LinearLayout>
+    
+</RelativeLayout>
