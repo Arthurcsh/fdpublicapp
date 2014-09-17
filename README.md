@@ -5,4 +5,4 @@ fdpublicapp
 
 
 
-![Image 主页](https://github.com/Arthurcsh/fdpublicapp/tree/master/screenshots/device-2014-09-17-125256.png)
+![Image 主页](https://raw.githubusercontent.com/Arthurcsh/fdpublicapp/master/screenshots/device-2014-09-17-125256.png)
